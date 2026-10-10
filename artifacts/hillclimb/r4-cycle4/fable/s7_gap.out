@@ -1,0 +1,18 @@
+(i) r = (t, t^3, t^4, t^3), s = (1, t^2, t^2, t^2)
+  t=3/2    : U_4^12 == t^48: True (argmin r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2); W(t) = 4; W/U_4 = 0.7901  (U_4 -> 16, W -> 5 as t -> 2)
+  t=7/4    : U_4^12 == t^48: True (argmin r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2); W(t) = 4; W/U_4 = 0.4265  (U_4 -> 16, W -> 5 as t -> 2)
+  t=31/16  : U_4^12 == t^48: True (argmin r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2); W(t) = 5; W/U_4 = 0.3548  (U_4 -> 16, W -> 5 as t -> 2)
+  t=63/32  : U_4^12 == t^48: True (argmin r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2); W(t) = 5; W/U_4 = 0.3328  (U_4 -> 16, W -> 5 as t -> 2)
+  t=127/64 : U_4^12 == t^48: True (argmin r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2); W(t) = 5; W/U_4 = 0.3225  (U_4 -> 16, W -> 5 as t -> 2)
+(ii) r = (3, 4, 2, 4), s = (2, 4, 1, 4)
+  U_4^12 = 1073741824 = 32^6: True  (U_4 = sqrt(32) = 5.6569, argmin r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2); arc optimum = 4
+  hand-built instance: Out = 4, |e| = [2, 4, 2, 4], sigma^2 = ['1', '4', '1', '4'] (all exact integers: True); admissible for r, s: True
+  so W >= 4 > arc optimum 4 at this point; U_4/W <= 1.4142
+(iii) search for non-arc instances above the arc optimum at the worst grid points
+  r=[2, 3, 3, 3] s=[1, 2, 2, 3]: U_4=4.1602, arc optimum 2, best admissible 0/1 instance found Out=3 -> U_4/W <= 1.3867
+     instance: [[[0, 0, 0], [0, 0, 1], [0, 1, 0]], [[1, 0, 0], [1, 0, 0], [0, 0, 1]], [[0, 1, 1], [0, 0, 0], [1, 0, 0]], [[0, 1, 0], [0, 0, 1], [0, 0, 1]]]
+  r=[2, 3, 4, 3] s=[1, 2, 3, 2]: U_4=4.8990, arc optimum 2, best admissible 0/1 instance found Out=4 -> U_4/W <= 1.2247
+     instance: [[[1, 0, 0], [0, 0, 0], [0, 1, 0]], [[1, 0, 1], [0, 1, 0], [0, 0, 0]], [[1, 1, 0], [0, 0, 1], [0, 1, 0]], [[1, 0, 0], [1, 0, 0], [0, 0, 1]]]
+  r=[3, 4, 2, 4] s=[2, 4, 1, 4]: U_4=5.6569, arc optimum 4, best admissible 0/1 instance found Out=4 -> U_4/W <= 1.4142
+  r=[2, 2, 2, 2] s=[1, 2, 2, 2]: U_4=2.8284, arc optimum 2, best admissible 0/1 instance found Out=2 -> U_4/W <= 1.4142
+STEP-7 DONE

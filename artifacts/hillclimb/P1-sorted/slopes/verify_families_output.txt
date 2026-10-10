@@ -1,0 +1,4 @@
+parameters (1, 1, 2) checked row types (8, 64) comparisons (15, 7) root costs (1024, 32, 256) union (1440, 1024, 1312) slope 1 exponent 9/8
+parameters (1, 1, 3) checked row types (27, 729) comparisons (53, 17) root costs (39366, 243, 6561) union (29160, 26244, 46170) slope 1 exponent 9/8
+parameters (2, 1, 2) checked row types (8, 1024) comparisons (255, 127) root costs (4194304, 8192, 65536) union (368640, 3211264, 4268032) slope 5/4 exponent 21/16
+parameters (2, 2, 2) checked row types (64, 4096) comparisons (127, 31) root costs (524288, 1024, 65536) union (261120, 262144, 590848) slope 1 exponent 9/8

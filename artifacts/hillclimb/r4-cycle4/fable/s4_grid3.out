@@ -1,0 +1,3 @@
+integer grid 1<=s<=r<=3: 1296 statistics vectors, literal rounding of an exact-simplex vertex of the rational-log LP; all admissible, all (16 Out_int)^12 > U_4^12 exactly
+   max U_4/Out_int = 3.000000 (12th power 531441) at r=[1, 2, 3, 3] s=[1, 2, 2, 3] arcs={} m=1 Out=1
+exit 0

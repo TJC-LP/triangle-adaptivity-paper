@@ -1,0 +1,466 @@
+{
+  "self_test": {
+    "sorted_bag_pairs": 15876,
+    "lower_bound_cases": 9920,
+    "stop_callback_cases": 1,
+    "disorder_cases": 1
+  },
+  "methodology": "Exact independent-call costs with integer multiplicities; no executor caching",
+  "cases": [
+    {
+      "m": 2,
+      "N": 2208,
+      "B2": 1280,
+      "m9": 512,
+      "each_forward_norm": 1280,
+      "each_reverse_norm": 11392,
+      "actual_port_calls": 144,
+      "Z1_vs_Tx": {
+        "work": 23,
+        "walked": 8,
+        "comparisons": 45,
+        "predicates": {
+          "drops_at_lt": 15,
+          "equal_run_end_eq": 7,
+          "gallop_ge": 15,
+          "match_eq": 8
+        }
+      },
+      "Y0_vs_Sz": {
+        "work": 11,
+        "walked": 4,
+        "comparisons": 21,
+        "predicates": {
+          "drops_at_lt": 7,
+          "equal_run_end_eq": 3,
+          "gallop_ge": 7,
+          "match_eq": 4
+        }
+      },
+      "Sz_vs_Y0": {
+        "work": 11,
+        "walked": 4,
+        "comparisons": 19,
+        "predicates": {
+          "drops_at_lt": 6,
+          "equal_run_end_eq": 3,
+          "gallop_ge": 7,
+          "match_eq": 3
+        }
+      },
+      "options": {
+        "comparisons": {
+          "x_option_R": 184,
+          "x_option_T": 192,
+          "gadget_root_x": 2944,
+          "gadget_root_y": 32,
+          "gadget_root_z": 256,
+          "three_rotation_each_root": 3232,
+          "normalized_by_m9": "101/16"
+        },
+        "work": {
+          "x_option_R": 96,
+          "x_option_T": 112,
+          "gadget_root_x": 1536,
+          "gadget_root_y": 32,
+          "gadget_root_z": 256,
+          "three_rotation_each_root": 1824,
+          "normalized_by_m9": "57/16"
+        },
+        "walked": {
+          "x_option_R": 36,
+          "x_option_T": 56,
+          "gadget_root_x": 576,
+          "gadget_root_y": 32,
+          "gadget_root_z": 256,
+          "three_rotation_each_root": 864,
+          "normalized_by_m9": "27/16"
+        }
+      },
+      "actual_driver_argument_order_options": {
+        "comparisons": {
+          "x_option_R": 184,
+          "x_option_T": 176,
+          "x_selected": "T",
+          "gadget_root_x": 2816,
+          "gadget_root_y": 32,
+          "gadget_root_z": 256,
+          "three_rotation_each_root": 3104,
+          "normalized_by_m9": "97/16"
+        },
+        "work": {
+          "x_option_R": 96,
+          "x_option_T": 112,
+          "x_selected": "R",
+          "gadget_root_x": 1536,
+          "gadget_root_y": 32,
+          "gadget_root_z": 256,
+          "three_rotation_each_root": 1824,
+          "normalized_by_m9": "57/16"
+        },
+        "walked": {
+          "x_option_R": 36,
+          "x_option_T": 56,
+          "x_selected": "R",
+          "gadget_root_x": 576,
+          "gadget_root_y": 32,
+          "gadget_root_z": 256,
+          "three_rotation_each_root": 864,
+          "normalized_by_m9": "27/16"
+        }
+      },
+      "pure_comparison_minimum_each_root": 2688,
+      "actual_driver_argument_order_pure_comparison_minimum": 2432,
+      "actual_driver_chosen_plan_key_comparisons": 2432,
+      "actual_driver_chosen_plan_outer_steps": 672,
+      "actual_driver_comparison_cost_over_N_plus_B2": "97/109",
+      "optimal_ternary_comparisons_plus_outer": 1312,
+      "chosen_comparison_plus_outer_plan_key_comparisons": 2880,
+      "chosen_comparison_plus_outer_plan_outer_steps": 352,
+      "comparison_cost_over_N_plus_B2": "101/109"
+    },
+    {
+      "m": 3,
+      "N": 48843,
+      "B2": 32805,
+      "m9": 19683,
+      "each_forward_norm": 32805,
+      "each_reverse_norm": 1065069,
+      "actual_port_calls": 1539,
+      "Z1_vs_Tx": {
+        "work": 80,
+        "walked": 27,
+        "comparisons": 159,
+        "predicates": {
+          "drops_at_lt": 53,
+          "equal_run_end_eq": 26,
+          "gallop_ge": 53,
+          "match_eq": 27
+        }
+      },
+      "Y0_vs_Sz": {
+        "work": 26,
+        "walked": 9,
+        "comparisons": 51,
+        "predicates": {
+          "drops_at_lt": 17,
+          "equal_run_end_eq": 8,
+          "gallop_ge": 17,
+          "match_eq": 9
+        }
+      },
+      "Sz_vs_Y0": {
+        "work": 26,
+        "walked": 9,
+        "comparisons": 49,
+        "predicates": {
+          "drops_at_lt": 16,
+          "equal_run_end_eq": 8,
+          "gallop_ge": 17,
+          "match_eq": 8
+        }
+      },
+      "options": {
+        "comparisons": {
+          "x_option_R": 1440,
+          "x_option_T": 1485,
+          "gadget_root_x": 116640,
+          "gadget_root_y": 243,
+          "gadget_root_z": 6561,
+          "three_rotation_each_root": 123444,
+          "normalized_by_m9": "508/81"
+        },
+        "work": {
+          "x_option_R": 729,
+          "x_option_T": 810,
+          "gadget_root_x": 59049,
+          "gadget_root_y": 243,
+          "gadget_root_z": 6561,
+          "three_rotation_each_root": 65853,
+          "normalized_by_m9": "271/81"
+        },
+        "walked": {
+          "x_option_R": 252,
+          "x_option_T": 351,
+          "gadget_root_x": 20412,
+          "gadget_root_y": 243,
+          "gadget_root_z": 6561,
+          "three_rotation_each_root": 27216,
+          "normalized_by_m9": "112/81"
+        }
+      },
+      "actual_driver_argument_order_options": {
+        "comparisons": {
+          "x_option_R": 1440,
+          "x_option_T": 1431,
+          "x_selected": "T",
+          "gadget_root_x": 115911,
+          "gadget_root_y": 243,
+          "gadget_root_z": 6561,
+          "three_rotation_each_root": 122715,
+          "normalized_by_m9": "505/81"
+        },
+        "work": {
+          "x_option_R": 729,
+          "x_option_T": 810,
+          "x_selected": "R",
+          "gadget_root_x": 59049,
+          "gadget_root_y": 243,
+          "gadget_root_z": 6561,
+          "three_rotation_each_root": 65853,
+          "normalized_by_m9": "271/81"
+        },
+        "walked": {
+          "x_option_R": 252,
+          "x_option_T": 351,
+          "x_selected": "R",
+          "gadget_root_x": 20412,
+          "gadget_root_y": 243,
+          "gadget_root_z": 6561,
+          "three_rotation_each_root": 27216,
+          "normalized_by_m9": "112/81"
+        }
+      },
+      "pure_comparison_minimum_each_root": 111537,
+      "actual_driver_argument_order_pure_comparison_minimum": 107163,
+      "actual_driver_chosen_plan_key_comparisons": 107163,
+      "actual_driver_chosen_plan_outer_steps": 15552,
+      "actual_driver_comparison_cost_over_N_plus_B2": "505/336",
+      "optimal_ternary_comparisons_plus_outer": 46170,
+      "chosen_comparison_plus_outer_plan_key_comparisons": 115911,
+      "chosen_comparison_plus_outer_plan_outer_steps": 7533,
+      "comparison_cost_over_N_plus_B2": "127/84"
+    },
+    {
+      "m": 4,
+      "N": 457728,
+      "B2": 327680,
+      "m9": 262144,
+      "each_forward_norm": 327680,
+      "each_reverse_norm": 28327936,
+      "actual_port_calls": 8448,
+      "Z1_vs_Tx": {
+        "work": 191,
+        "walked": 64,
+        "comparisons": 381,
+        "predicates": {
+          "drops_at_lt": 127,
+          "equal_run_end_eq": 63,
+          "gallop_ge": 127,
+          "match_eq": 64
+        }
+      },
+      "Y0_vs_Sz": {
+        "work": 47,
+        "walked": 16,
+        "comparisons": 93,
+        "predicates": {
+          "drops_at_lt": 31,
+          "equal_run_end_eq": 15,
+          "gallop_ge": 31,
+          "match_eq": 16
+        }
+      },
+      "Sz_vs_Y0": {
+        "work": 47,
+        "walked": 16,
+        "comparisons": 91,
+        "predicates": {
+          "drops_at_lt": 30,
+          "equal_run_end_eq": 15,
+          "gallop_ge": 31,
+          "match_eq": 15
+        }
+      },
+      "options": {
+        "comparisons": {
+          "x_option_R": 6112,
+          "x_option_T": 6272,
+          "gadget_root_x": 1564672,
+          "gadget_root_y": 1024,
+          "gadget_root_z": 65536,
+          "three_rotation_each_root": 1631232,
+          "normalized_by_m9": "1593/256"
+        },
+        "work": {
+          "x_option_R": 3072,
+          "x_option_T": 3328,
+          "gadget_root_x": 786432,
+          "gadget_root_y": 1024,
+          "gadget_root_z": 65536,
+          "three_rotation_each_root": 852992,
+          "normalized_by_m9": "833/256"
+        },
+        "walked": {
+          "x_option_R": 1040,
+          "x_option_T": 1344,
+          "gadget_root_x": 266240,
+          "gadget_root_y": 1024,
+          "gadget_root_z": 65536,
+          "three_rotation_each_root": 332800,
+          "normalized_by_m9": "325/256"
+        }
+      },
+      "actual_driver_argument_order_options": {
+        "comparisons": {
+          "x_option_R": 6112,
+          "x_option_T": 6144,
+          "x_selected": "R",
+          "gadget_root_x": 1564672,
+          "gadget_root_y": 1024,
+          "gadget_root_z": 65536,
+          "three_rotation_each_root": 1631232,
+          "normalized_by_m9": "1593/256"
+        },
+        "work": {
+          "x_option_R": 3072,
+          "x_option_T": 3328,
+          "x_selected": "R",
+          "gadget_root_x": 786432,
+          "gadget_root_y": 1024,
+          "gadget_root_z": 65536,
+          "three_rotation_each_root": 852992,
+          "normalized_by_m9": "833/256"
+        },
+        "walked": {
+          "x_option_R": 1040,
+          "x_option_T": 1344,
+          "x_selected": "R",
+          "gadget_root_x": 266240,
+          "gadget_root_y": 1024,
+          "gadget_root_z": 65536,
+          "three_rotation_each_root": 332800,
+          "normalized_by_m9": "325/256"
+        }
+      },
+      "pure_comparison_minimum_each_root": 1523712,
+      "actual_driver_argument_order_pure_comparison_minimum": 1490944,
+      "actual_driver_chosen_plan_key_comparisons": 1560576,
+      "actual_driver_chosen_plan_outer_steps": 70656,
+      "actual_driver_comparison_cost_over_N_plus_B2": "27/13",
+      "optimal_ternary_comparisons_plus_outer": 590848,
+      "chosen_comparison_plus_outer_plan_key_comparisons": 1560576,
+      "chosen_comparison_plus_outer_plan_outer_steps": 70656,
+      "comparison_cost_over_N_plus_B2": "27/13"
+    },
+    {
+      "m": 5,
+      "N": 2634375,
+      "B2": 1953125,
+      "m9": 1953125,
+      "each_forward_norm": 1953125,
+      "each_reverse_norm": 371171875,
+      "actual_port_calls": 31875,
+      "Z1_vs_Tx": {
+        "work": 374,
+        "walked": 125,
+        "comparisons": 747,
+        "predicates": {
+          "drops_at_lt": 249,
+          "equal_run_end_eq": 124,
+          "gallop_ge": 249,
+          "match_eq": 125
+        }
+      },
+      "Y0_vs_Sz": {
+        "work": 74,
+        "walked": 25,
+        "comparisons": 147,
+        "predicates": {
+          "drops_at_lt": 49,
+          "equal_run_end_eq": 24,
+          "gallop_ge": 49,
+          "match_eq": 25
+        }
+      },
+      "Sz_vs_Y0": {
+        "work": 74,
+        "walked": 25,
+        "comparisons": 145,
+        "predicates": {
+          "drops_at_lt": 48,
+          "equal_run_end_eq": 24,
+          "gallop_ge": 49,
+          "match_eq": 24
+        }
+      },
+      "options": {
+        "comparisons": {
+          "x_option_R": 18700,
+          "x_option_T": 19125,
+          "gadget_root_x": 11687500,
+          "gadget_root_y": 3125,
+          "gadget_root_z": 390625,
+          "three_rotation_each_root": 12081250,
+          "normalized_by_m9": "3866/625"
+        },
+        "work": {
+          "x_option_R": 9375,
+          "x_option_T": 10000,
+          "gadget_root_x": 5859375,
+          "gadget_root_y": 3125,
+          "gadget_root_z": 390625,
+          "three_rotation_each_root": 6253125,
+          "normalized_by_m9": "2001/625"
+        },
+        "walked": {
+          "x_option_R": 3150,
+          "x_option_T": 3875,
+          "gadget_root_x": 1968750,
+          "gadget_root_y": 3125,
+          "gadget_root_z": 390625,
+          "three_rotation_each_root": 2362500,
+          "normalized_by_m9": "756/625"
+        }
+      },
+      "actual_driver_argument_order_options": {
+        "comparisons": {
+          "x_option_R": 18700,
+          "x_option_T": 18875,
+          "x_selected": "R",
+          "gadget_root_x": 11687500,
+          "gadget_root_y": 3125,
+          "gadget_root_z": 390625,
+          "three_rotation_each_root": 12081250,
+          "normalized_by_m9": "3866/625"
+        },
+        "work": {
+          "x_option_R": 9375,
+          "x_option_T": 10000,
+          "x_selected": "R",
+          "gadget_root_x": 5859375,
+          "gadget_root_y": 3125,
+          "gadget_root_z": 390625,
+          "three_rotation_each_root": 6253125,
+          "normalized_by_m9": "2001/625"
+        },
+        "walked": {
+          "x_option_R": 3150,
+          "x_option_T": 3875,
+          "x_selected": "R",
+          "gadget_root_x": 1968750,
+          "gadget_root_y": 3125,
+          "gadget_root_z": 390625,
+          "three_rotation_each_root": 2362500,
+          "normalized_by_m9": "756/625"
+        }
+      },
+      "pure_comparison_minimum_each_root": 11484375,
+      "actual_driver_argument_order_pure_comparison_minimum": 11328125,
+      "actual_driver_chosen_plan_key_comparisons": 11671875,
+      "actual_driver_chosen_plan_outer_steps": 409375,
+      "actual_driver_comparison_cost_over_N_plus_B2": "1933/734",
+      "optimal_ternary_comparisons_plus_outer": 4300000,
+      "chosen_comparison_plus_outer_plan_key_comparisons": 11671875,
+      "chosen_comparison_plus_outer_plan_outer_steps": 409375,
+      "comparison_cost_over_N_plus_B2": "1933/734"
+    }
+  ],
+  "m2_to_m4_ratios": {
+    "N": "4768/23",
+    "canonical_comparison_cost": "50976/101",
+    "driver_order_comparison_cost": "50976/97",
+    "optimal_ternary_cost": "18464/41",
+    "leading_m9": "512"
+  }
+}

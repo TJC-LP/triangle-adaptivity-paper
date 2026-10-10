@@ -1,0 +1,25 @@
+VFTIME,vf_tri_rows,922125,12
+VFTIME,vf_tri_cyc_rows,453834,0
+VFTIME,vf_tri_count,575125,1
+VFTIME,vf_tri_cyc_count,599708,1
+VFTIME,vf_tri_sel,8375,0
+VFTIME,vf_cycle_quad,976959,145
+VFTIME,vf_nt_chain,10584,0
+VFTIME,vf_nt_star,11292,1
+File: medium.lb
+Size: 160 bytes (0.16 KB)
+Triples: 101210
+Load: 0.95 ms
+
+Query suite (best of 1 runs):
+  vf_tri_rows             0.922 ms       12 rows     1084.5 q/s
+  vf_tri_cyc_rows         0.454 ms        0 rows     2203.4 q/s
+  vf_tri_count            0.575 ms        1 rows     1738.8 q/s
+  vf_tri_cyc_count        0.600 ms        1 rows     1667.5 q/s
+  vf_tri_sel              0.008 ms        0 rows   119403.0 q/s
+  vf_cycle_quad           0.977 ms      145 rows     1023.6 q/s
+  vf_nt_chain             0.011 ms        0 rows    94482.2 q/s
+  vf_nt_star              0.011 ms        1 rows    88558.3 q/s
+real 0.01
+user 0.00
+sys 0.00

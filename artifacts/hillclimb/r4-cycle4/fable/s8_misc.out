@@ -1,0 +1,19 @@
+(a) double star
+  k=3: Delta+ Delta- = 9, sigma^2 in (4.000000, 4.000000] -> Delta+Delta- > sigma^2: True
+  k=4: Delta+ Delta- = 16, sigma^2 in (5.302776, 5.302776] -> Delta+Delta- > sigma^2: True
+  k=6: Delta+ Delta- = 36, sigma^2 in (7.791288, 7.791288] -> Delta+Delta- > sigma^2: True
+  k=10: Delta+ Delta- = 100, sigma^2 in (12.541381, 12.541381] -> Delta+Delta- > sigma^2: True
+    (sigma^2 = 2k - 1 for the double star: check) 1096526282707431/140737488355328 2193052565414865/281474976710656 False
+  k stars + k co-stars + K_{k,k}: sum d+(x) d-(y) over R vs |R| sigma^2
+  k=3: |R|=27, sum d+ d- = 432, sigma^2 in (14.3739, 14.3739], ratio sum/(|R| sigma^2) >= 1.1131
+  k=5: |R|=75, sum d+ d- = 3000, sigma^2 in (34.2705, 34.2705], ratio sum/(|R| sigma^2) >= 1.1672
+  k=8: |R|=192, sum d+ d- = 18432, sigma^2 in (79.1918, 79.1918], ratio sum/(|R| sigma^2) >= 1.2122
+(b) real-matrix H remark: Out = 1/2, r = (2, 1/2, 2, 1/2), s = (1, 1/4, 1, 1/4): H = sqrt(r_S r_Q)(s_R s_S s_T s_Q)^(1/4) = 1/4 < Out = 1/2
+(c) Lemma Lambda exact instance: R = J_{X x Y}, T = J_{Z x W}, S a star
+  dims (2, 3, 4, 5) S=star: lambda_max(K)^2 = 90 <= 360 = (sigma_R sigma_S sigma_T)^2: True
+  dims (2, 3, 4, 5) S=complete: lambda_max(K)^2 = 1440 <= 1440 = (sigma_R sigma_S sigma_T)^2: True (equality)
+  dims (1, 1, 1, 1) S=star: lambda_max(K)^2 = 1 <= 1 = (sigma_R sigma_S sigma_T)^2: True (equality)
+  dims (1, 1, 1, 1) S=complete: lambda_max(K)^2 = 1 <= 1 = (sigma_R sigma_S sigma_T)^2: True (equality)
+  dims (3, 3, 3, 3) S=star: lambda_max(K)^2 = 81 <= 243 = (sigma_R sigma_S sigma_T)^2: True
+  dims (3, 3, 3, 3) S=complete: lambda_max(K)^2 = 729 <= 729 = (sigma_R sigma_S sigma_T)^2: True (equality)
+STEP-8 DONE

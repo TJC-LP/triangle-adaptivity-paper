@@ -1,0 +1,4 @@
+exhaustive dims (2,2,2,2), 65536 instances: 32377 instances with Out>0 certified; violations 0; undecided 0
+   max Out/U_4(r,s_hi) over instances (float display of exact 12th-power ratio): 1.000000 at ([1, 1, 1, 1], 1)
+   instances tight (Out = U_4 up to 1e-12): 10057
+exit 0

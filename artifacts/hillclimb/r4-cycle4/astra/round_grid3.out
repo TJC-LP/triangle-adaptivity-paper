@@ -1,0 +1,4 @@
+progress 1000
+GRID 3 count 1296 zero violations, exact LP optimum equality at every point
+WORST LITERAL ratio^12 (Fraction(531441, 1), ([1, 2, 3, 3], [1, 2, 2, 3], 1, {}))
+WORST OPTIMAL ratio^12 (Fraction(6561, 1), ([2, 3, 3, 3], [1, 2, 2, 3], 2))

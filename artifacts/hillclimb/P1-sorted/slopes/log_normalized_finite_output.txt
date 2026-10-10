@@ -1,0 +1,6 @@
+i=j=1 h=4 M=16 L=65536 u=2^65536
+N=3*(2^524289+2^458748+2^393208+2^327684)
+B2=5*2^524288 lower=2^589827 D=2^196619 programs=3*2^393208
+bit_lengths N,B2,lower= 524291 524291 589828
+program_count_bit_length= 393210 per_call_depth_bit_length= 196620
+lower_minus_N_eighth_exceeds_spectral_eighth= True

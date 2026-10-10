@@ -1,0 +1,6 @@
+[1] single live gadget: 733 parameter tuples; brute force == closed forms for ('R', 'S', 'T', 'N', 'Out', 'Cx', 'Cy', 'Cz', 'al', 'be', 'ga', 'alp', 'bep', 'gap'); all fully reduced; Cx >= pqt
+[2] live union: 60 random triples; brute force == closed forms (sizes, costs, Out, fwd+bwd norms); fully reduced; C_v >= p_v q_v t_v
+[3] L(v=2): N=8976 (|R|,|S|,|T|)=(2992,2992,2992) C=12464 (Cx,Cy,Cz)=(12464,12464,12464) Out=5760 fully_reduced=True dead=(0,0,0) fwd=(29264,29264,29264) bwd=(31440,31440,31440) B2=29264 C/(N+B2)=0.325941  ratio exact = 779/2390 = 0.3259  time 0s
+    gadget costs (Cx,Cy,Cz) = (6016,3072,3376); claim 'every root >= v^12+v^10+3v^8+v^7' = 6016: True
+[3] L(v=3): N=355266 (|R|,|S|,|T|)=(118422,118422,118422) C=888246 (Cx,Cy,Cz)=(888246,888246,888246) Out=262440 fully_reduced=True dead=(0,0,0) fwd=(2441502,2441502,2441502) bwd=(5113692,5113692,5113692) B2=2441502 C/(N+B2)=0.317597  ratio exact = 5483/17264 = 0.3176  time 0s
+    gadget costs (Cx,Cy,Cz) = (612360,120285,155601); claim 'every root >= v^12+v^10+3v^8+v^7' = 612360: True

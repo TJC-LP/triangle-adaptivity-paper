@@ -1,0 +1,23 @@
+[1] single live gadget: 733 parameter tuples; brute force == closed forms for ('R', 'S', 'T', 'N', 'Out', 'Cx', 'Cy', 'Cz', 'al', 'be', 'ga', 'alp', 'bep', 'gap'); all fully reduced; Cx >= pqt
+[2] live union: 60 random triples; brute force == closed forms (sizes, costs, Out, fwd+bwd norms); fully reduced; C_v >= p_v q_v t_v
+[3] L(v=4): N=5263104 (|R|,|S|,|T|)=(1754368,1754368,1754368) C=22332672 (Cx,Cy,Cz)=(22332672,22332672,22332672) Out=4177920 fully_reduced=True dead=(0,0,0) fwd=(56889600,56889600,56889600) bwd=(206718720,206718720,206718720) B2=56889600 C/(N+B2)=0.359319  ratio exact = 3231/8992 = 0.3593  time 6s
+    gadget costs (Cx,Cy,Cz) = (18038784,1769472,2524416); claim 'every root >= v^12+v^10+3v^8+v^7' = 18038784: True
+        5.73 real         5.65 user         0.07 sys
+           985120768  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               61224  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 600  involuntary context switches
+         90417561832  instructions retired
+         22416628241  cycles elapsed
+           898286888  peak memory footprint
+exit 0

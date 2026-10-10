@@ -1,0 +1,22 @@
+T4: r = (L, t, L, L), s = (t, t, t, L)
+  t=1        U_4^12 == t^36 at L=1e6: True (argmin r_S s_R s_T); smallest L with U_4 = t^3: 2 (t^2=1.000, t^3=1.000); at L=1 the minimum is A8 r_Q s_S s_T = 1.0000 < t^3=1.0000
+  t=3/2      U_4^12 == t^36 at L=1e6: True (argmin r_S s_R s_T); smallest L with U_4 = t^3: 4 (t^2=2.250, t^3=3.375); at L=3 the minimum is C r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 = 3.1820 < t^3=3.3750
+  t=7/4      U_4^12 == t^36 at L=1e6: True (argmin r_S s_R s_T); smallest L with U_4 = t^3: 6 (t^2=3.062, t^3=5.359); at L=5 the minimum is C r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 = 5.1766 < t^3=5.3594
+  t=15/8     U_4^12 == t^36 at L=1e6: True (argmin r_S s_R s_T); smallest L with U_4 = t^3: 7 (t^2=3.516, t^3=6.592); at L=6 the minimum is C r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 = 6.2889 < t^3=6.5918
+  t=31/16    U_4^12 == t^36 at L=1e6: True (argmin r_S s_R s_T); smallest L with U_4 = t^3: 8 (t^2=3.754, t^3=7.273); at L=7 the minimum is C r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 = 7.1353 < t^3=7.2732
+  t=63/32    U_4^12 == t^36 at L=1e6: True (argmin r_S s_R s_T); smallest L with U_4 = t^3: 8 (t^2=3.876, t^3=7.631); at L=7 the minimum is C r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 = 7.3086 < t^3=7.6308
+  t=127/64   U_4^12 == t^36 at L=1e6: True (argmin r_S s_R s_T); smallest L with U_4 = t^3: 8 (t^2=3.938, t^3=7.814); at L=7 the minimum is C r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 = 7.3958 < t^3=7.8140
+  'U_4 = t^3 for all L >= t^3' on a grid of 63 x 40 (t, L) pairs: True
+  at t=3/2, L=t^2=9/4: U_4 = 2.75568 vs t^3 = 3.37500; argmin r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 -> the report's side condition 'L >= t^2' is insufficient
+T5: R, S, Q complete n x n, T perfect matching
+  n=2: Out=8 = n^3: True; r=[4, 4, 2, 4], s=[4, 4, 1, 4]; U_4^12 == Out^12: True; tight terms: ['r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 [C]', 'r_R^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_T^1/3 [G]', 'r_R^1/3 r_S^1/3 r_T^1/3 s_R^1/3 s_T^1/3 s_Q^1/3 [G]', "r_R^1/2 r_Q^1/2 s_S^1/2 s_T^1/2 [C']", 'r_R^1/2 r_T^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4 [H]', "r_R^1/2 r_S^1/2 s_T^1/2 s_Q^1/2 [C']", 'r_R^2/3 r_T^1/3 s_S^1/3 s_T^1/3 s_Q^1/3 [F]', 'r_R r_T [D]']
+  n=3: Out=27 = n^3: True; r=[9, 9, 3, 9], s=[9, 9, 1, 9]; U_4^12 == Out^12: True; tight terms: ['r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 [C]', 'r_R^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_T^1/3 [G]', 'r_R^1/3 r_S^1/3 r_T^1/3 s_R^1/3 s_T^1/3 s_Q^1/3 [G]', "r_R^1/2 r_Q^1/2 s_S^1/2 s_T^1/2 [C']", 'r_R^1/2 r_T^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4 [H]', "r_R^1/2 r_S^1/2 s_T^1/2 s_Q^1/2 [C']", 'r_R^2/3 r_T^1/3 s_S^1/3 s_T^1/3 s_Q^1/3 [F]', 'r_R r_T [D]']
+  n=4: Out=64 = n^3: True; r=[16, 16, 4, 16], s=[16, 16, 1, 16]; U_4^12 == Out^12: True; tight terms: ['r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 [C]', 'r_R^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_T^1/3 [G]', 'r_R^1/3 r_S^1/3 r_T^1/3 s_R^1/3 s_T^1/3 s_Q^1/3 [G]', "r_R^1/2 r_Q^1/2 s_S^1/2 s_T^1/2 [C']", 'r_R^1/2 r_T^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4 [H]', "r_R^1/2 r_S^1/2 s_T^1/2 s_Q^1/2 [C']", 'r_R^2/3 r_T^1/3 s_S^1/3 s_T^1/3 s_Q^1/3 [F]', 'r_R r_T [D]']
+  n=5: Out=125 = n^3: True; r=[25, 25, 5, 25], s=[25, 25, 1, 25]; U_4^12 == Out^12: True; tight terms: ['r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2 [C]', 'r_R^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_T^1/3 [G]', 'r_R^1/3 r_S^1/3 r_T^1/3 s_R^1/3 s_T^1/3 s_Q^1/3 [G]', "r_R^1/2 r_Q^1/2 s_S^1/2 s_T^1/2 [C']", 'r_R^1/2 r_T^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4 [H]', "r_R^1/2 r_S^1/2 s_T^1/2 s_Q^1/2 [C']", 'r_R^2/3 r_T^1/3 s_S^1/3 s_T^1/3 s_Q^1/3 [F]', 'r_R r_T [D]']
+  n=4: best complete-block output = 16 = n^2: True (vs Out = U_4 = 64)
+Astra obstruction: r = (1, n, n, n), s = (1, n, 1, n)
+  n=2: U_4^12 == n^12: True (argmin r_Q s_R s_T); pair-arc {Z,W} instance: Out=2, |e|=[1, 2, 2, 2], sigma^2=[1, 2, 1, 2] (exact)
+  n=3: U_4^12 == n^12: True (argmin r_Q s_R s_T); pair-arc {Z,W} instance: Out=3, |e|=[1, 3, 3, 3], sigma^2=[1, 3, 1, 3] (exact)
+  n=5: U_4^12 == n^12: True (argmin r_Q s_R s_T); pair-arc {Z,W} instance: Out=5, |e|=[1, 5, 5, 5], sigma^2=[1, 5, 1, 5] (exact)
+  n=7: U_4^12 == n^12: True (argmin r_Q s_R s_T); pair-arc {Z,W} instance: Out=7, |e|=[1, 7, 7, 7], sigma^2=[1, 7, 1, 7] (exact)
+STEP-5 DONE

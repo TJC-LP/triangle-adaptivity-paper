@@ -1,0 +1,7 @@
+[email-Eu-core] n=1005 preds selected=1
+  dir email-Eu-core r=25571 sigma=64.9012 [64.901206,64.901232] svds=64.901206 schur=266.098 cw5=64.9431 it=11 0.0s
+  sym email-Eu-core r=32770 sigma=77.1718 [77.171762,77.171788] svds=77.171762 schur=346 cw5=77.2086 it=10 0.0s
+[email-Eu-core/dir] canonical queries: 2
+[email-Eu-core/dir] rows-so-far=2 zero=0 support-skip=0 M-skip=0 0s
+[email-Eu-core/sym] canonical queries: 2
+[email-Eu-core/sym] rows-so-far=3 zero=0 support-skip=0 M-skip=0 0s

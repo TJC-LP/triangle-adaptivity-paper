@@ -1,0 +1,2 @@
+prep/w5m.npz terms 4594485 preds 822 edges 20624575
+$E/venv/bin/python -I $E/src/prep.py tsv $E/prep/w5m.npz     21.39s user 0.86s system 80% cpu 27.479 total

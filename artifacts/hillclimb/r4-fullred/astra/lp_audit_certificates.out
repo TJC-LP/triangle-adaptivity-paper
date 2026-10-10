@@ -1,0 +1,33 @@
+size 0 bound -1
+multiplier 2 constraint {'Q0': Fraction(1, 1), 'P0': Fraction(-1, 1), 'T0': Fraction(-1, 1), 'G0': Fraction(1, 1)} <= 0 
+multiplier 6 constraint {'P0': Fraction(1, 1), 'Q0': Fraction(2, 1), 'a': Fraction(-1, 1)} <= 0 norm
+multiplier 4 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1), 'G0': Fraction(-1, 1), 'Q0': Fraction(1, 1), 'W0': Fraction(1, 1), 'b': Fraction(-1, 1)} <= 0 norm
+multiplier 2 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1), 'G0': Fraction(1, 1), 'd': Fraction(-1, 1)} <= 0 norm
+multiplier 4 constraint {'P0': Fraction(2, 1), 'T0': Fraction(-1, 1), 'd': Fraction(-1, 1)} <= 0 norm
+multiplier 1 constraint {'c': Fraction(1, 1), 'P1': Fraction(-1, 1), 'Q1': Fraction(-1, 1), 'T1': Fraction(-1, 1)} <= 0 designated cost
+multiplier 1 constraint {'T1': Fraction(1, 1), 'P1': Fraction(-1, 1)} <= 0 
+multiplier 2 constraint {'P1': Fraction(1, 1), 'Q1': Fraction(2, 1), 'b': Fraction(-1, 1)} <= 0 norm
+multiplier 6 constraint {'a': Fraction(1, 1), 'b': Fraction(1, 1), 'd': Fraction(1, 1), 'm': Fraction(-3, 1)} <= 0 norm budget
+multiplier 17 constraint {'m': Fraction(1, 1)} = 1 slope cap
+multiplier -18 constraint {'P0': Fraction(1, 1), 'Q0': Fraction(1, 1)} = 1 actual N
+size 1 bound -1/8
+multiplier 1/8 constraint {'T0': Fraction(1, 1), 'P0': Fraction(-1, 1)} <= 0 
+multiplier 1/4 constraint {'P0': Fraction(1, 1), 'Q0': Fraction(2, 1), 'a': Fraction(-1, 1)} <= 0 norm
+multiplier 1/2 constraint {'P0': Fraction(2, 1), 'T0': Fraction(2, 1), 'G0': Fraction(-2, 1), 'Q0': Fraction(-1, 1), 'b': Fraction(-1, 1)} <= 0 norm
+multiplier 1 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1), 'G0': Fraction(1, 1), 'd': Fraction(-1, 1)} <= 0 norm
+multiplier 1 constraint {'c': Fraction(1, 1), 'P1': Fraction(-1, 1), 'Q1': Fraction(-1, 1), 'T1': Fraction(-1, 1)} <= 0 designated cost
+multiplier 1/4 constraint {'T1': Fraction(1, 1), 'P1': Fraction(-1, 1)} <= 0 
+multiplier 1/2 constraint {'P1': Fraction(1, 1), 'Q1': Fraction(2, 1), 'b': Fraction(-1, 1)} <= 0 norm
+multiplier 3/4 constraint {'P1': Fraction(1, 1), 'T1': Fraction(1, 1), 'G1': Fraction(1, 1), 'a': Fraction(-1, 1)} <= 0 norm
+multiplier 1 constraint {'a': Fraction(1, 1), 'b': Fraction(1, 1), 'd': Fraction(1, 1), 'm': Fraction(-3, 1)} <= 0 norm budget
+multiplier 2 constraint {'m': Fraction(1, 1)} = 1 slope cap
+multiplier -17/8 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1)} = 1 actual N
+size 2 bound 0
+multiplier 1 constraint {'c': Fraction(1, 1), 'P0': Fraction(-1, 1), 'Q0': Fraction(-1, 1), 'T0': Fraction(-1, 1)} <= 0 designated cost
+multiplier 1 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1), 'G0': Fraction(-1, 1), 'Q0': Fraction(1, 1), 'K0': Fraction(1, 1), 'W0': Fraction(-1, 1), 'a': Fraction(-1, 1)} <= 0 norm
+multiplier 1 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1), 'G0': Fraction(-1, 1), 'Q0': Fraction(1, 1), 'W0': Fraction(1, 1), 'b': Fraction(-1, 1)} <= 0 norm
+multiplier 1/2 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1), 'G0': Fraction(1, 1), 'd': Fraction(-1, 1)} <= 0 norm
+multiplier 1/2 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1), 'G0': Fraction(-1, 1), 'Q0': Fraction(2, 1), 'K0': Fraction(-2, 1), 'd': Fraction(-1, 1)} <= 0 norm
+multiplier 1 constraint {'a': Fraction(1, 1), 'b': Fraction(1, 1), 'd': Fraction(1, 1), 'm': Fraction(-3, 1)} <= 0 norm budget
+multiplier 2 constraint {'m': Fraction(1, 1)} = 1 slope cap
+multiplier -2 constraint {'P0': Fraction(1, 1), 'T0': Fraction(1, 1), 'G0': Fraction(-1, 1), 'Q0': Fraction(1, 1)} = 1 actual N

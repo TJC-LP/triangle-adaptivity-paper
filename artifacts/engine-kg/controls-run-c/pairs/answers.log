@@ -1,0 +1,22 @@
+skew.lb,vf_tri_rows,old=(0, 466174, '57a1db282117'),new=(0, 466174, '57a1db282117'),SAME
+skew.lb,vf_tri_cyc_rows,old=(0, 466833, '00295baeb27d'),new=(0, 466833, '00295baeb27d'),SAME
+skew.lb,vf_tri_count,old=(0, 7, '7de43d37f017'),new=(0, 7, '7de43d37f017'),SAME
+skew.lb,vf_tri_cyc_count,old=(0, 7, 'f03de0d403a2'),new=(0, 7, 'f03de0d403a2'),SAME
+skew.lb,vf_tri_sel,old=(0, 3520, '276f5ecdd4a2'),new=(0, 3520, '276f5ecdd4a2'),SAME
+skew.lb,x_tri_limit,old=(0, 11, '71f1a3610f7e'),new=(0, 11, '71f1a3610f7e'),SAME
+skew.lb,x_tri_distinct_a,old=(0, 7, 'dc6e3a35c73a'),new=(0, 7, 'dc6e3a35c73a'),SAME
+uni.lb,vf_tri_rows,old=(0, 20023, '1495c1fb9b93'),new=(0, 20023, '1495c1fb9b93'),SAME
+uni.lb,vf_tri_cyc_rows,old=(0, 20027, 'a5648bd766d9'),new=(0, 20027, 'a5648bd766d9'),SAME
+uni.lb,vf_tri_count,old=(0, 7, '7e57398d1b58'),new=(0, 7, '7e57398d1b58'),SAME
+uni.lb,vf_tri_cyc_count,old=(0, 7, '643b10189c96'),new=(0, 7, '643b10189c96'),SAME
+uni.lb,vf_tri_sel,old=(0, 6, '4e28da140519'),new=(0, 6, '4e28da140519'),SAME
+uni.lb,x_tri_limit,old=(0, 11, '6252fcf96847'),new=(0, 11, '6252fcf96847'),SAME
+uni.lb,x_tri_distinct_a,old=(0, 7, '9a41cf570b83'),new=(0, 7, '9a41cf570b83'),SAME
+medium.lb,vf_tri_rows,old=(0, 18, '4c0fde860ac5'),new=(0, 18, '4c0fde860ac5'),SAME
+medium.lb,vf_tri_cyc_rows,old=(0, 6, '4baa0ea88d66'),new=(0, 6, '4baa0ea88d66'),SAME
+medium.lb,vf_tri_count,old=(0, 7, '8af7c4655c75'),new=(0, 7, '8af7c4655c75'),SAME
+medium.lb,vf_tri_cyc_count,old=(0, 7, 'ba100e42034f'),new=(0, 7, 'ba100e42034f'),SAME
+medium.lb,vf_tri_sel,old=(0, 6, '4baa0ea88d66'),new=(0, 6, '4baa0ea88d66'),SAME
+medium.lb,x_tri_limit,old=(0, 11, 'a743cfc4098b'),new=(0, 11, 'a743cfc4098b'),SAME
+medium.lb,x_tri_distinct_a,old=(0, 7, 'ba100e42034f'),new=(0, 7, 'ba100e42034f'),SAME
+DIFFS 0

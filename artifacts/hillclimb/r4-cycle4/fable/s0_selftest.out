@@ -1,0 +1,2 @@
+600 random matrices: exact bracket always contains numpy's lambda_max (max |lam - lo| = 3.55e-14); 245 integer roots pinned exactly
+simplex smoke tests passed

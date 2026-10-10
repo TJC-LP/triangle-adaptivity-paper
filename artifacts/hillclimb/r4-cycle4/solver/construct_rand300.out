@@ -1,0 +1,3 @@
+random: 1500 statistics vectors checked, 8 with matrices rebuilt and norms bracketed; all passed
+  max U_4/Out_construction = 3.905527 (exact 12th power 2592302037540861513958713172135936/205840300007972052217204201) at r=[293, 196, 93, 131] s=[122, 106, 47, 66] arcs={(0,): 66, (2,): 47} Out=3102
+exit 0

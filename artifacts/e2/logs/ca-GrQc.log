@@ -1,0 +1,7 @@
+[ca-GrQc] n=5242 preds selected=1
+  dir ca-GrQc r=28980 sigma=45.6167 [45.61664,45.616663] svds=45.616662 schur=81 cw5=45.6555 it=18 0.0s
+  sym ca-GrQc r=28980 sigma=45.6167 [45.61664,45.616663] svds=45.616662 schur=81 cw5=45.6555 it=18 0.0s
+[ca-GrQc/dir] canonical queries: 2
+[ca-GrQc/dir] rows-so-far=2 zero=0 support-skip=0 M-skip=0 0s
+[ca-GrQc/sym] canonical queries: 2
+[ca-GrQc/sym] rows-so-far=3 zero=0 support-skip=0 M-skip=0 0s

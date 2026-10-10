@@ -1,0 +1,89 @@
+k=3: 7 arcs, 13 dual vertices (exact basis enumeration)
+  non-dominated: 9; dominated: 4
+  needed (unique-minimiser certificate found): 9 of 9
+  pruned vertex unique minimiser on random points: 0 (expected 0)
+  k=3 kept monomials:
+     r_T s_S
+     r_T s_R
+     r_S^1/2 r_T^1/2 s_R^1/2
+     r_S s_T
+     r_S s_R
+     r_R^1/2 r_T^1/2 s_S^1/2
+     r_R^1/2 r_S^1/2 s_T^1/2
+     r_R s_T
+     r_R s_S
+  k=3 pruned:
+     r_S r_T
+     r_R^1/2 r_S^1/2 r_T^1/2
+     r_R r_T
+     r_R r_S
+k=4: 13 arcs, 50 dual vertices (exact basis enumeration)
+  non-dominated: 38; dominated: 12
+  needed (unique-minimiser certificate found): 38 of 38
+  pruned vertex unique minimiser on random points: 0 (expected 0)
+  orbit class counts (kept): {'A4': 4, 'A8': 8, 'B': 4, 'C': 2, "C'": 4, 'D': 2, 'E': 4, 'F': 4, 'G': 4, 'H': 2}
+  kept set closed under D4: True
+  number of D4-orbits among kept: 10
+    orbit A4  size 4: r_Q s_R s_T; r_T s_S s_Q; r_S s_R s_T; r_R s_S s_Q
+    orbit A8  size 8: r_Q s_S s_T; r_Q s_R s_S; r_T s_R s_Q; r_T s_R s_S; r_S s_T s_Q; r_S s_R s_Q; r_R s_T s_Q; r_R s_S s_T
+    orbit B   size 4: r_Q s_R^1/2 s_S^1/2 s_T^1/2; r_T s_R^1/2 s_S^1/2 s_Q^1/2; r_S s_R^1/2 s_T^1/2 s_Q^1/2; r_R s_S^1/2 s_T^1/2 s_Q^1/2
+    orbit C   size 2: r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2; r_R^1/2 r_T^1/2 s_S^1/2 s_Q^1/2
+    orbit C'  size 4: r_T^1/2 r_Q^1/2 s_R^1/2 s_S^1/2; r_S^1/2 r_T^1/2 s_R^1/2 s_Q^1/2; r_R^1/2 r_Q^1/2 s_S^1/2 s_T^1/2; r_R^1/2 r_S^1/2 s_T^1/2 s_Q^1/2
+    orbit D   size 2: r_S r_Q; r_R r_T
+    orbit E   size 4: r_S^1/2 r_Q^1/2 s_S^1/2 s_T^1/2 s_Q^1/2; r_S^1/2 r_Q^1/2 s_R^1/2 s_S^1/2 s_Q^1/2; r_R^1/2 r_T^1/2 s_R^1/2 s_T^1/2 s_Q^1/2; r_R^1/2 r_T^1/2 s_R^1/2 s_S^1/2 s_T^1/2
+    orbit F   size 4: r_S^1/3 r_Q^2/3 s_R^1/3 s_S^1/3 s_T^1/3; r_S^2/3 r_Q^1/3 s_R^1/3 s_T^1/3 s_Q^1/3; r_R^1/3 r_T^2/3 s_R^1/3 s_S^1/3 s_Q^1/3; r_R^2/3 r_T^1/3 s_S^1/3 s_T^1/3 s_Q^1/3
+    orbit G   size 4: r_S^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_Q^1/3; r_R^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_T^1/3; r_R^1/3 r_S^1/3 r_Q^1/3 s_S^1/3 s_T^1/3 s_Q^1/3; r_R^1/3 r_S^1/3 r_T^1/3 s_R^1/3 s_T^1/3 s_Q^1/3
+    orbit H   size 2: r_S^1/2 r_Q^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4; r_R^1/2 r_T^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4
+  kept vertices with certificates:
+    A8  r_Q s_S s_T                                witness c=rho['53', '6', '8', '14'] vs['29', '3', '0', '14']
+    B   r_Q s_R^1/2 s_S^1/2 s_T^1/2                witness c=rho['48', '44', '40', '14'] vs['16', '12', '11', '8']
+    A4  r_Q s_R s_T                                witness c=rho['54', '31', '28', '7'] vs['6', '20', '8', '3']
+    A8  r_Q s_R s_S                                witness c=rho['23', '11', '44', '1'] vs['3', '2', '42', '1']
+    C'  r_T^1/2 r_Q^1/2 s_R^1/2 s_S^1/2            witness c=rho['28', '32', '32', '21'] vs['8', '23', '30', '18']
+    A4  r_T s_S s_Q                                witness c=rho['58', '49', '11', '56'] vs['54', '32', '6', '2']
+    B   r_T s_R^1/2 s_S^1/2 s_Q^1/2                witness c=rho['41', '13', '3', '48'] vs['25', '8', '1', '30']
+    A8  r_T s_R s_Q                                witness c=rho['32', '35', '13', '23'] vs['15', '34', '2', '5']
+    A8  r_T s_R s_S                                witness c=rho['47', '27', '14', '54'] vs['3', '10', '3', '37']
+    F   r_S^1/3 r_Q^2/3 s_R^1/3 s_S^1/3 s_T^1/3    witness c=rho['41', '46', '39', '13'] vs['28', '26', '25', '6']
+    G   r_S^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_Q^1/3 witness c=rho['43', '34', '23', '17'] vs['24', '14', '12', '1']
+    E   r_S^1/2 r_Q^1/2 s_S^1/2 s_T^1/2 s_Q^1/2    witness c=rho['25', '6', '29', '15'] vs['21', '2', '13', '3']
+    H   r_S^1/2 r_Q^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4 witness c=rho['47', '37', '45', '24'] vs['30', '25', '21', '0']
+    C   r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2            witness c=rho['58', '19', '17', '14'] vs['6', '19', '11', '12']
+    E   r_S^1/2 r_Q^1/2 s_R^1/2 s_S^1/2 s_Q^1/2    witness c=rho['38', '34', '54', '15'] vs['33', '6', '44', '4']
+    C'  r_S^1/2 r_T^1/2 s_R^1/2 s_Q^1/2            witness c=rho['36', '50', '50', '60'] vs['9', '45', '50', '25']
+    F   r_S^2/3 r_Q^1/3 s_R^1/3 s_T^1/3 s_Q^1/3    witness c=rho['54', '11', '39', '46'] vs['42', '11', '12', '31']
+    A8  r_S s_T s_Q                                witness c=rho['55', '26', '11', '22'] vs['50', '25', '1', '15']
+    B   r_S s_R^1/2 s_T^1/2 s_Q^1/2                witness c=rho['54', '10', '30', '58'] vs['21', '0', '19', '6']
+    A8  r_S s_R s_Q                                witness c=rho['11', '18', '39', '18'] vs['2', '10', '26', '6']
+    A4  r_S s_R s_T                                witness c=rho['23', '11', '22', '43'] vs['3', '7', '11', '16']
+    D   r_S r_Q                                    witness c=rho['39', '13', '51', '2'] vs['18', '12', '48', '1']
+    G   r_R^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_T^1/3 witness c=rho['23', '51', '27', '29'] vs['1', '36', '17', '26']
+    F   r_R^1/3 r_T^2/3 s_R^1/3 s_S^1/3 s_Q^1/3    witness c=rho['12', '45', '20', '44'] vs['5', '8', '15', '11']
+    G   r_R^1/3 r_S^1/3 r_Q^1/3 s_S^1/3 s_T^1/3 s_Q^1/3 witness c=rho['21', '14', '31', '15'] vs['19', '0', '13', '6']
+    G   r_R^1/3 r_S^1/3 r_T^1/3 s_R^1/3 s_T^1/3 s_Q^1/3 witness c=rho['18', '27', '16', '40'] vs['4', '25', '9', '20']
+    C'  r_R^1/2 r_Q^1/2 s_S^1/2 s_T^1/2            witness c=rho['39', '34', '37', '22'] vs['34', '5', '14', '7']
+    C   r_R^1/2 r_T^1/2 s_S^1/2 s_Q^1/2            witness c=rho['57', '47', '46', '55'] vs['54', '22', '40', '41']
+    H   r_R^1/2 r_T^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4 witness c=rho['36', '37', '28', '56'] vs['24', '22', '16', '36']
+    E   r_R^1/2 r_T^1/2 s_R^1/2 s_T^1/2 s_Q^1/2    witness c=rho['27', '57', '8', '33'] vs['16', '47', '5', '13']
+    E   r_R^1/2 r_T^1/2 s_R^1/2 s_S^1/2 s_T^1/2    witness c=rho['11', '17', '20', '47'] vs['1', '7', '12', '21']
+    C'  r_R^1/2 r_S^1/2 s_T^1/2 s_Q^1/2            witness c=rho['33', '10', '53', '43'] vs['26', '3', '16', '27']
+    F   r_R^2/3 r_T^1/3 s_S^1/3 s_T^1/3 s_Q^1/3    witness c=rho['32', '51', '32', '50'] vs['28', '39', '16', '18']
+    A8  r_R s_T s_Q                                witness c=rho['20', '51', '51', '20'] vs['3', '43', '19', '0']
+    B   r_R s_S^1/2 s_T^1/2 s_Q^1/2                witness c=rho['1', '23', '35', '30'] vs['1', '9', '20', '25']
+    A4  r_R s_S s_Q                                witness c=rho['14', '18', '53', '20'] vs['13', '7', '13', '2']
+    A8  r_R s_S s_T                                witness c=rho['6', '44', '36', '49'] vs['2', '3', '11', '41']
+    D   r_R r_T                                    witness c=rho['4', '26', '18', '53'] vs['3', '19', '11', '28']
+  pruned (dominated) vertices and a dominating kept vertex:
+    r_T r_Q s_S                              >= r_Q s_S s_T
+    r_T r_Q s_R                              >= r_Q s_R s_T
+    r_S^1/2 r_T^1/2 r_Q^1/2 s_R^1/2          >= r_T^1/2 r_Q^1/2 s_R^1/2 s_S^1/2
+    r_S r_T s_Q                              >= r_T s_S s_Q
+    r_S r_T s_R                              >= r_T s_R s_S
+    r_R^1/2 r_T^1/2 r_Q^1/2 s_S^1/2          >= r_T^1/2 r_Q^1/2 s_R^1/2 s_S^1/2
+    r_R^1/2 r_S^1/2 r_Q^1/2 s_T^1/2          >= r_S^1/2 r_Q^1/2 s_R^1/2 s_T^1/2
+    r_R^1/2 r_S^1/2 r_T^1/2 s_Q^1/2          >= r_S^1/2 r_T^1/2 s_R^1/2 s_Q^1/2
+    r_R r_Q s_T                              >= r_Q s_R s_T
+    r_R r_Q s_S                              >= r_Q s_R s_S
+    r_R r_S s_Q                              >= r_S s_R s_Q
+    r_R r_S s_T                              >= r_S s_R s_T
+wrote vertices4.json

@@ -1,0 +1,7 @@
+[com-dblp] n=317080 preds selected=1
+  dir com-dblp r=1049866 sigma=74.1624 [74.162403,74.162456] svds=74.162432 schur=185.952 cw5=74.2104 it=25 0.6s
+  sym com-dblp r=2099732 sigma=115.847 [115.84695,115.84703] svds=115.84698 schur=343 cw5=115.948 it=26 0.9s
+[com-dblp/dir] canonical queries: 2
+[com-dblp/dir] rows-so-far=1 zero=1 support-skip=0 M-skip=0 1s
+[com-dblp/sym] canonical queries: 2
+[com-dblp/sym] rows-so-far=2 zero=0 support-skip=0 M-skip=0 2s

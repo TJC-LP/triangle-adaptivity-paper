@@ -1,0 +1,7 @@
+[com-youtube] n=1134890 preds selected=1
+  dir com-youtube r=2987624 sigma=184.136 [184.136,184.13617] svds=184.136 schur=11028.1 cw5=210.846 it=26 1.7s
+  sym com-youtube r=5975248 sigma=210.395 [210.39529,210.39549] svds=210.39529 schur=28754 cw5=270.33 it=40 3.2s
+[com-youtube/dir] canonical queries: 2
+[com-youtube/dir] rows-so-far=1 zero=1 support-skip=0 M-skip=0 11s
+[com-youtube/sym] canonical queries: 2
+[com-youtube/sym] rows-so-far=2 zero=0 support-skip=0 M-skip=0 5s

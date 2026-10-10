@@ -1,0 +1,24 @@
+L(v) 2 8976 12464 (12464, 12464, 12464) 5760 (29264, 29264, 29264) (31440, 31440, 31440) True closed True True True True ratio 779/2390
+L(v) 3 355266 888246 (888246, 888246, 888246) 262440 (2441502, 2441502, 2441502) (5113692, 5113692, 5113692) True closed True True True True ratio 5483/17264
+general (2,1,2) 692352 2697600 368640 (10175104, 10175104, 10175104) (13960832, 13960832, 13960832) True True
+rotstar 2 N 12 MT 8 U2^2 32 (k^5) 32 Out 0
+rotstar 3 N 27 MT 27 U2^2 243 (k^5) 243 Out 0
+rotstar 4 N 48 MT 64 U2^2 1024 (k^5) 1024 Out 0
+rotstar 8 N 192 MT 512 U2^2 32768 (k^5) 32768 Out 0
+4-cycle terms 38
+T4 t= 1 U4==t^3: True
+T4 t= 3/2 U4==t^3: True
+T4 t= 7/4 U4==t^3: True
+T4 t= 31/16 U4==t^3: True
+T4 t= 255/128 U4==t^3: True
+env 3/2 9/4 True
+env 3/2 27/8 True
+env 7/4 5 True
+adj 3/2 True
+adj 31/16 True
+obstr 2 True
+obstr 3 True
+obstr 5 True
+T5 2 True
+T5 3 True
+T5 4 True

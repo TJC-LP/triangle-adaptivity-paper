@@ -1,0 +1,3 @@
+seed 1: 354 instances with Out>0; no violation; 354 certified exactly (Out <= U_4(r, s_lo) <= U_4(r, s)), 0 undecided-but-not-violated
+  largest Out/U_4(r, s_hi) (upper bound on Out/U_4): 1.0000 at dims=[2, 1, 7, 2] Out=28 r=[2, 7, 14, 4]
+exit 0

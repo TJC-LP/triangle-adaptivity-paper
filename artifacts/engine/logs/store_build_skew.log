@@ -1,0 +1,7 @@
+Loading input files...
+Loaded 101411 triples (1000000 statements parsed) from 1 input(s)
+Load footprint: maxrss=67 MiB, dictionary terms=17623 (25 MiB resident, 0 MiB spilled), sort buffer=10 MiB, spill runs=10
+Building store at skew.lb...
+Store built: 101411 triples, 0 vectors across 0 field(s)
+Runtime root skew.lb: generation 000001, 0 named-graph partition file(s)
+Verified generation: 1 file(s), 9 checksummed segments, 6015104 bytes

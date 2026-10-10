@@ -1,0 +1,15 @@
+test-unit
++- run test unit 17 pass, 1 fail (18 total)
+error: 'query.triangle_join_tests.test.triangle planner: the rescue decides as the rule over every candidate sampled — a small unsampled candidate that wins the large argmin and fails its threshold vetoes a larger driver (the engine audit's witness)' failed:
+       pruned argmin: rescued driver 2 by large, the full rule declines
+       check failed at query/triangle_join_tests.zig:2328
+       pruned argmin: TestUnexpectedResult
+       Cannot print stack trace: stack tracing is disabled
+failed command: ./.zig-cache/o/51d306b67e0df58f180f6aa997ccb9b8/unit --cache-dir=./.zig-cache --seed=0x7c858fba --listen=-
+
+Build Summary: 10/12 steps succeeded (1 failed); 17/18 tests passed (1 failed)
+test-unit transitive failure
++- run test unit 17 pass, 1 fail (18 total)
+
+error: the following build command failed with exit code 1:
+.zig-cache/o/28bb0fb0c68cd40e2b3afde7533de04a/build /opt/homebrew/Cellar/zig/0.16.0/bin/zig /opt/homebrew/Cellar/zig/0.16.0/lib/zig <scratch>/old .zig-cache zig --seed 0x7c858fba -Zeca556af82001d92 test-unit -Denable-onnx=false -Dtest-filter=engine audit's witness

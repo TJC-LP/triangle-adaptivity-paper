@@ -1,0 +1,6 @@
+h= 16 L= 65536 u=2^65536
+bit_lengths N,B2,lower= 1048610 1310722 1376272
+program_count_bit_length= 917506 R_depth_bit_length= 458768
+certified_lower_eighth_over_spectral_eighth_at_least= 512
+N_less_than_lower_half= True
+lower_minus_N_eighth_exceeds_spectral_eighth= True

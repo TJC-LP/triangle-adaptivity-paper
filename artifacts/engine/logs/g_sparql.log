@@ -1,0 +1,14 @@
+............................................................../Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/case.py:579: ResourceWarning: unclosed file <_io.TextIOWrapper name=4 encoding='UTF-8'>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+..............................................................................................
+----------------------------------------------------------------------
+Ran 156 tests in 62.030s
+
+OK
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.006s
+
+OK
+architecture guard: 558 Zig files, 2952 production imports, 21 cross-domain edges, 25 ontology paths, 0 forbidden directions, 0 file SCCs, 0 unallowlisted domain SCCs, 0 stray Leatherback IRIs, vocab is a leaf

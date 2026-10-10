@@ -1,0 +1,3 @@
+grid: 1296 statistics vectors checked, 2 with matrices rebuilt and norms bracketed; all passed
+  max U_4/Out_construction = 2.598076 (exact 12th power 387420489/4096) at r=[2, 3, 3, 3] s=[1, 3, 3, 3] arcs={(0, 1, 2, 3): 2} Out=2
+exit 0

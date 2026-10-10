@@ -1,0 +1,2 @@
+prep/sci50.npz terms 2481777 preds 157 edges 18483050
+$E/venv/bin/python -I $E/src/prep.py nt  $E/prep/sci50.npz  16.88s user 0.94s system 80% cpu 22.269 total

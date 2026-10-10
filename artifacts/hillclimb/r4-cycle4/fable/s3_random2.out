@@ -1,0 +1,4 @@
+random seed 2 n 20000 maxdim 7: 18372 instances with Out>0 certified; violations 0; undecided 0
+   max Out/U_4(r,s_hi) over instances (float display of exact 12th-power ratio): 1.000000 at ([40, 7, 1, 7], 40)
+   instances tight (Out = U_4 up to 1e-12): 4726
+exit 0

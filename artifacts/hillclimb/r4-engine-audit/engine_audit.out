@@ -1,0 +1,84 @@
+KG RESULTS recomputed independently from raw CSV using integer/Fraction arithmetic
+
+DATASET codex-l queries 871 timed 871 outcomes {'gate': 354, 'accepted': 300, 'rescued': 217} answer_flags 5226 5226
+timeouts []
+overhead 139752537931/135999220500 decimal 1.02759808047
+old_total_ms 25821288042666513977/135999220500000000 decimal 189.863500303
+new_total_ms 144771133/1000000 decimal 144.771133
+adjusted_median 1 decimal 1
+adjusted_p90 42216865915810273/7757667535761000 decimal 5.4419534894
+adjusted_max 13458448907831162/817389315010125 decimal 16.4651637362
+adjusted regressions_gt_1.2 0
+raw_median 1 decimal 1
+raw_p90 302083/57042 decimal 5.29579958627
+raw_max 385208/24041 decimal 16.0229607753
+raw regressions_gt_1.2 0
+declines 571 354 / 871
+stage1_old2_agreement 871 871
+all stored medians equal independently computed run medians
+
+DATASET sci50 queries 120 timed 120 outcomes {'rescued': 52, 'gate': 35, 'accepted': 33} answer_flags 720 720
+timeouts []
+overhead 10715/11148 decimal 0.961158952278
+old_total_ms 3730700702879/3716000000 decimal 1003.95605567
+new_total_ms 34170443/62500 decimal 546.727088
+adjusted_median 1 decimal 1
+adjusted_p90 1368221054718547/182274464412384 decimal 7.50637813766
+adjusted_max 20382073/1084143 decimal 18.8001702727
+adjusted regressions_gt_1.2 0
+raw_median 1 decimal 1
+raw_p90 638460594829/81752092040 decimal 7.80971567696
+raw_max 38044/1945 decimal 19.5598971722
+raw regressions_gt_1.2 0
+declines 87 35 / 120
+stage1_old2_agreement 120 120
+all stored medians equal independently computed run medians
+
+DATASET w5m queries 250 timed 249 outcomes {'rescued': 43, 'gate': 123, 'accepted': 83} answer_flags 1500 1500
+timeouts ['w5m-1393']
+overhead 374417/405667 decimal 0.922966373898
+old_total_ms 373085427202569/202833500000 decimal 1839.36789141
+new_total_ms 317541747/250000 decimal 1270.166988
+adjusted_median 1 decimal 1
+adjusted_p90 10371406252067117699/2457286995748095000 decimal 4.22067355991
+adjusted_max 22412976037/214192176 decimal 104.639564598
+adjusted regressions_gt_1.2 0
+raw_median 1 decimal 1
+raw_p90 27700147835347/6057399285000 decimal 4.57294401971
+raw_max 59861/528 decimal 113.373106061
+raw regressions_gt_1.2 0
+declines 166 123 / 249
+all stored medians equal independently computed run medians
+
+SYNTHETIC CONTROLS sampled-policy decisions and exact ratios
+skew vf_tri_rows old_ns 24225958 new_ns 24515417 ratio 24515417/24225958 decimal 1.011948299423288 outcome accepted accepted picks 1 1 above1.05 False
+skew vf_tri_cyc_rows old_ns 24225416 new_ns 24646042 ratio 12323021/12112708 decimal 1.0173630042101238 outcome accepted accepted picks 1 1 above1.05 False
+skew vf_tri_count old_ns 8372250 new_ns 8432125 ratio 67457/66978 decimal 1.0071516020185733 outcome accepted accepted picks 1 1 above1.05 False
+skew vf_tri_cyc_count old_ns 8391417 new_ns 8410625 ratio 8410625/8391417 decimal 1.0022890055398272 outcome accepted accepted picks 1 1 above1.05 False
+skew vf_tri_sel old_ns 168667 new_ns 184084 ratio 184084/168667 decimal 1.091404957697712 outcome accepted accepted picks 2 2 above1.05 True
+skew x_tri_distinct_a old_ns 13510917 new_ns 13246333 ratio 13246333/13510917 decimal 0.9804170212873042 outcome accepted accepted picks 1 1 above1.05 False
+uni vf_tri_rows old_ns 55625042 new_ns 53137916 ratio 26568958/27812521 decimal 0.9552876562322415 outcome accepted accepted picks 2 2 above1.05 False
+uni vf_tri_cyc_rows old_ns 55346084 new_ns 55113542 ratio 27556771/27673042 decimal 0.9957984019248769 outcome accepted accepted picks 1 1 above1.05 False
+uni vf_tri_count old_ns 54444667 new_ns 57613750 ratio 57613750/54444667 decimal 1.0582074090011424 outcome accepted accepted picks 2 2 above1.05 True
+uni vf_tri_cyc_count old_ns 57916375 new_ns 53856291 ratio 53856291/57916375 decimal 0.9298974771815398 outcome accepted accepted picks 1 1 above1.05 False
+uni vf_tri_sel old_ns 7708 new_ns 8583 ratio 8583/7708 decimal 1.1135184224182668 outcome accepted accepted picks 2 2 above1.05 True
+uni x_tri_distinct_a old_ns 54244583 new_ns 55434917 ratio 55434917/54244583 decimal 1.0219438317002087 outcome accepted accepted picks 1 1 above1.05 False
+medium vf_tri_rows old_ns 194459 new_ns 163166 ratio 163166/194459 decimal 0.8390766176931899 outcome gate gate picks 0 0 above1.05 False
+medium vf_tri_cyc_rows old_ns 55250 new_ns 53833 ratio 4141/4250 decimal 0.9743529411764705 outcome accepted accepted picks 0 0 above1.05 False
+medium vf_tri_count old_ns 215000 new_ns 196625 ratio 1573/1720 decimal 0.9145348837209303 outcome gate gate picks 0 0 above1.05 False
+medium vf_tri_cyc_count old_ns 56208 new_ns 53667 ratio 17889/18736 decimal 0.9547929120409906 outcome accepted accepted picks 0 0 above1.05 False
+medium vf_tri_sel old_ns 1000 new_ns 1000 ratio 1 decimal 1.0 outcome not_triangle not_triangle picks -1 -1 above1.05 False
+medium x_tri_distinct_a old_ns 63084 new_ns 56459 ratio 56459/63084 decimal 0.8949812947815611 outcome accepted accepted picks 0 0 above1.05 False
+historical answer log SAME count 21
+historical gates.rc 'fmt=0\ntest-unit=0\nlint=0\nsparql=0\nchangelog=0\ndone\n'
+historical build.rc 'rf=0\nleatherback 0.2.1+g23c093ed52.dirty (onnx: disabled)\n'
+
+LITERAL FLOOR-SKIPPING COUNTEREXAMPLE
+sampled_candidates [{'n': 1000, 'n2': 20000, 'n3': 10000, 'A': 15000, 'left': 15000, 'right': 15000, 'e2': 2, 'e3': 1}, {'n': 10000, 'n2': 20000, 'n3': 1000, 'A': 0, 'left': 0, 'right': 1093, 'e2': 2, 'e3': 0}, {'n': 20000, 'n2': 10000, 'n3': 1000, 'A': 0, 'left': 0, 'right': 1250, 'e2': 1, 'e3': 0}]
+exact_candidates [{'n': 1000, 'n2': 20000, 'n3': 10000, 'A': 960, 'left': 960, 'right': 960, 'e2': 2, 'e3': 1}, {'n': 10000, 'n2': 20000, 'n3': 1000, 'A': 0, 'left': 0, 'right': 960, 'e2': 2, 'e3': 0}, {'n': 20000, 'n2': 10000, 'n3': 1000, 'A': 0, 'left': 0, 'right': 960, 'e2': 1, 'e3': 0}]
+probe_first False path 15000 stage1_greedy 16000 stage1_seed_kernel 17000 large_3K_budget 798000 structural_K_budget 9000
+driver 0 large 317000 structural 484000 large_floor 17000 structural_floor 34000
+driver 1 large 50000 structural 100000 large_floor 50000 structural_floor 100000
+driver 2 large 80000 structural 160000 large_floor 80000 structural_floor 160000
+floor_filtered ([True, False, True], ('large', 2)) all_sampled ([True, True, True], None)
+fully explicit graph, literal sampling: decision preservation REFUTED; output=0

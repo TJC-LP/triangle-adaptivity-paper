@@ -1,0 +1,14 @@
+Build Summary: 12/12 steps succeeded; 22/22 tests passed
+test-unit success
++- run test unit 22 pass (22 total) 950ms MaxRSS:54M
+|  +- compile test unit Debug native success 9s MaxRSS:1G
+|     +- options cached
+|     +- options success
+|     +- WriteFile vocab.ttl cached
+|        +- run exe gen-vocab (vocab.ttl) cached
+|           +- compile exe gen-vocab Debug native cached 169ms MaxRSS:35M
++- run test build-identity success 496ms MaxRSS:2M
+|  +- compile test build-identity Debug native success 1s MaxRSS:265M
++- run test install-cli success 372ms MaxRSS:2M
+   +- compile test install-cli Debug native success 1s MaxRSS:267M
+

@@ -1,0 +1,93 @@
+/// The engine audit's witness against threshold-aware pruning: shape edges
+/// E0 = (x, y), E1 = (x, z), E2 = (y, z) of 1000, 10000 and 20000 rows.
+/// E0 is the diagonal x_i → y_i; at the 64 rows the stride sample reads
+/// (i = ⌊1000·s/64⌋) x_i has 15 E1 edges and y_i 15 E2 edges, onto disjoint
+/// z sets; the remaining rows are unrelated edges between fresh nodes. No
+/// triangle. Names are zero-padded so the dictionary's order is i's.
+fn prunedArgminTriples(list: *TripleList) !void {
+    var hot = [_]bool{false} ** 1000;
+    for (0..64) |s| hot[1000 * s / 64] = true;
+    var e1: usize = 0;
+    var e2: usize = 0;
+    for (0..1000) |i| {
+        try list.addFmt("http://e/x{d:0>4}", .{i}, p_iri[0], "http://e/y{d:0>4}", .{i});
+        if (!hot[i]) continue;
+        for (0..15) |j| {
+            try list.addFmt("http://e/x{d:0>4}", .{i}, p_iri[1], "http://e/z1_{d:0>5}", .{i * 15 + j});
+            try list.addFmt("http://e/y{d:0>4}", .{i}, p_iri[2], "http://e/z2_{d:0>5}", .{i * 15 + j});
+            e1 += 1;
+            e2 += 1;
+        }
+    }
+    // Fill: fresh subjects and fresh objects, sorted after every hot row.
+    while (e1 < 10000) : (e1 += 1) try list.addFmt("http://e/xf{d:0>5}", .{e1}, p_iri[1], "http://e/zf1_{d:0>5}", .{e1});
+    while (e2 < 20000) : (e2 += 1) try list.addFmt("http://e/yf{d:0>5}", .{e2}, p_iri[2], "http://e/zf2_{d:0>5}", .{e2});
+}
+
+const pruned_argmin_query = "SELECT * WHERE { ?x <http://e/p> ?y . ?x <http://e/q> ?z . ?y <http://e/r> ?z }";
+
+test "triangle planner: the rescue decides as the rule over every candidate sampled — a small unsampled candidate that wins the large argmin and fails its threshold vetoes a larger driver (the engine audit's witness)" {
+    prunedArgminScenario() catch |err| {
+        std.debug.print("pruned argmin: {s}\n", .{@errorName(err)});
+        return err;
+    };
+}
+
+fn prunedArgminScenario() !void {
+    const knobs = Knobs.begin(64);
+    defer knobs.end();
+    var list = TripleList.init();
+    defer list.deinit();
+    try prunedArgminTriples(&list);
+    try check(list.items.items.len == 31000, @src());
+    var fs = try t.FileStore.build(testing.allocator, list.items.items);
+    defer fs.deinit();
+    const src = fs.src();
+    var parsed = try Parsed.init(pruned_argmin_query);
+    defer parsed.deinit();
+    try warmRanges(src, parsed.group().elements);
+    // The planner's decision, at the default threshold.
+    try check(reorder.triangle_rescue_min_driver == 16384, @src());
+    var trace: reorder.TriangleTrace = .{};
+    const traced = try tracedPlan(src, &parsed, &trace);
+    const shape = traced.shape orelse return error.NotRecognized;
+    // Every candidate sampled (ratio 0 skips none): the audit's table.
+    var meter = tj.KernelMeter.init(null);
+    const full = (try tj.estimate(src, &shape, traced.pred, 0, &meter)).?;
+    const want_n = [3]u64{ 1000, 10000, 20000 };
+    const want_walk = [3]u64{ 15000, 0, 0 };
+    const want_large = [3]u128{ 317000, 50000, 80000 };
+    const want_structural = [3]u128{ 484000, 100000, 160000 };
+    for (full.cand, 0..) |c, d| {
+        try check(c.sampled and c.n == want_n[d] and c.adaptive == want_walk[d], @src());
+        try check(c.rescueCost(.large) == want_large[d] and c.rescueCost(.structural) == want_structural[d], @src());
+    }
+    try check(!full.probe_first and full.path == 15000 and full.greedy == 16000, @src());
+    try check(2 * full.rescueGreedyCost(.large) == 798000 and full.rescueGreedyCost(.structural) == 9000, @src());
+    // The rule over every candidate: candidate 1 wins the large argmin and
+    // fails the 16384-row threshold; the structural argmin (candidate 1,
+    // 100000) exceeds 9000. Decline.
+    const want = fullRescueRule(&full, reorder.triangle_rescue_min_driver);
+    try check(want == null, @src());
+    // The planner agrees: the stage-1 decline stands, no rescue.
+    if (trace.rescue) |r| std.debug.print("pruned argmin: rescued driver {d} by {s}, the full rule declines\n", .{ r.driver, @tagName(r.branch) });
+    try check(trace.outcome == .gate and trace.rescue == null and traced.plan == null, @src());
+}
+
+/// Steps 4–5 of `tj.rescue` written out again over the candidates of an
+/// estimate whose every candidate is sampled: no pruning.
+fn fullRescueRule(est: *const tj.Estimate, min_driver: u64) ?tj.Rescue {
+    var large: [3]u128 = undefined;
+    var structural: [3]u128 = undefined;
+    for (est.cand, 0..) |c, d| {
+        std.debug.assert(c.sampled);
+        large[d] = c.rescueCost(.large);
+        structural[d] = c.rescueCost(.structural);
+    }
+    const dl = oracleArgmin(large);
+    if (est.cand[dl].n >= min_driver and 3 * large[dl] <= 2 * est.rescueGreedyCost(.large)) return .{ .driver = dl, .branch = .large };
+    const ds = oracleArgmin(structural);
+    if (structural[ds] <= est.rescueGreedyCost(.structural)) return .{ .driver = ds, .branch = .structural };
+    return null;
+}
+

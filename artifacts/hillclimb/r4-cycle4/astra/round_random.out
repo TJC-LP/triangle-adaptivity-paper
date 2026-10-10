@@ -1,0 +1,2 @@
+RANDOM 256 seed20261009,maxr300,zero violations, exact LP optimum equality each point
+WORST LITERAL ratio^12 (Fraction(941622806914375817930331445556640625, 73119371471655725294164801), ([25, 224, 199, 257], [13, 194, 110, 176], 715, {(0,): 13, (2,): 55}))

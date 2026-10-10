@@ -1,0 +1,7 @@
+Loading input files...
+Loaded 999983 triples (1000000 statements parsed) from 1 input(s)
+Load footprint: maxrss=105 MiB, dictionary terms=125004 (25 MiB resident, 4 MiB spilled), sort buffer=13 MiB, spill runs=5
+Building store at uni.lb...
+Store built: 999983 triples, 0 vectors across 0 field(s)
+Runtime root uni.lb: generation 000001, 0 named-graph partition file(s)
+Verified generation: 1 file(s), 9 checksummed segments, 55832192 bytes

@@ -1,0 +1,7 @@
+LITERAL_POSITIVE_ID_CANDIDATES [{'n': 1000, 'n2': 20000, 'n3': 10000, 'A': 15000, 'L': 15000, 'R': 15000, 'e2': 2, 'e3': 1}, {'n': 10000, 'n2': 20000, 'n3': 1000, 'A': 0, 'L': 0, 'R': 1093, 'e2': 2, 'e3': 0}, {'n': 20000, 'n2': 10000, 'n3': 1000, 'A': 0, 'L': 0, 'R': 1250, 'e2': 1, 'e3': 0}]
+SEED probe_first False path 15000 greedy 16000 total_floor_input 31000
+RESCUE_COSTS [(317000, 484000, 17000, 34000), (50000, 100000, 50000, 100000), (80000, 160000, 80000, 160000)] budgets 798000 9000
+SOURCE_PRUNING ([True, False, True], ('large', 2)) ALL_CANDIDATES ([True, True, True], None)
+STRIDE 64 N 12290 j 1 M_R_T_S [258048, 4032, 4032] hat_M_R_T_S [0, 4032, 258111] Out 4032 walk_lower 254016 chosen 0 objective_ratio 133120/6113 gate_max_ratio 65/2
+STRIDE 128 N 49154 j 1 M_R_T_S [2080768, 16256, 16256] hat_M_R_T_S [0, 32513, 2097280] Out 16256 walk_lower 2064512 chosen 0 objective_ratio 352256/8171 gate_max_ratio 129/2
+STRIDE 256 N 196610 j 1 M_R_T_S [16711680, 65280, 65280] hat_M_R_T_S [0, 261123, 16777472] Out 65280 walk_lower 16646400 chosen 0 objective_ratio 8421376/98177 gate_max_ratio 257/2

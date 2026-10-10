@@ -1,0 +1,25 @@
+VFTIME,vf_tri_rows,54916750,20017
+VFTIME,vf_tri_cyc_rows,99966667,20021
+VFTIME,vf_tri_count,75216750,1
+VFTIME,vf_tri_cyc_count,99596250,1
+VFTIME,vf_tri_sel,42375,0
+VFTIME,vf_cycle_quad,6583,0
+VFTIME,vf_nt_chain,10625,8
+VFTIME,vf_nt_star,32166,1
+File: uni.lb
+Size: 160 bytes (0.16 KB)
+Triples: 999983
+Load: 1.14 ms
+
+Query suite (best of 1 runs):
+  vf_tri_rows            54.917 ms    20017 rows       18.2 q/s
+  vf_tri_cyc_rows        99.967 ms    20021 rows       10.0 q/s
+  vf_tri_count           75.217 ms        1 rows       13.3 q/s
+  vf_tri_cyc_count       99.596 ms        1 rows       10.0 q/s
+  vf_tri_sel              0.042 ms        0 rows    23598.8 q/s
+  vf_cycle_quad           0.007 ms        0 rows   151906.4 q/s
+  vf_nt_chain             0.011 ms        8 rows    94117.6 q/s
+  vf_nt_star              0.032 ms        1 rows    31088.7 q/s
+real 0.34
+user 0.33
+sys 0.01

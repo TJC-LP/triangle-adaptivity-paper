@@ -1,0 +1,215 @@
+ca-GrQc dir ca-GrQc r=28980 sigma=45.6166622 cert 45.6555150476->45.6555149829 bracket [45.61664013,45.61666325] w=5.07e-07
+ca-GrQc sym ca-GrQc r=28980 sigma=45.6166622 cert 45.6555150476->45.6555149829 bracket [45.61664013,45.61666325] w=5.07e-07
+codex-l dir P106 r=187932 sigma=152.986086 cert 155.136005603->155.136005602 bracket [152.9860863,152.9862367] w=9.83e-07
+codex-l dir P27 r=66849 sigma=118.697836 cert 119.111031063->119.111031063 bracket [118.6978357,118.6979391] w=8.72e-07
+codex-l dir P19 r=39848 sigma=31.4960658 cert 31.4960680644->31.4960680644 bracket [31.49603562,31.49606584] w=9.59e-07 SIGMA-OUTSIDE-BRACKET
+codex-l dir P1412 r=38317 sigma=112.739047 cert 113.381160903->113.381160903 bracket [112.7390466,112.7391319] w=7.56e-07
+codex-l dir P69 r=33718 sigma=25.5389409 cert 25.842981792->25.842981792 bracket [25.53894081,25.53896139] w=8.06e-07
+codex-l dir P136 r=27081 sigma=45.6028344 cert 45.8204952693->45.8204952693 bracket [45.60281221,45.60284782] w=7.81e-07
+codex-l dir P161 r=25669 sigma=14.5686682 cert 14.813732467->14.813732467 bracket [14.56866819,14.56868085] w=8.69e-07
+codex-l dir P20 r=24580 sigma=35.3696604 cert 35.3696603877->35.3696603877 bracket [35.369627,35.36966039] w=9.44e-07 SIGMA-OUTSIDE-BRACKET
+codex-l dir P463 r=18948 sigma=49.9924921 cert 50.0046184308->50.0046184308 bracket [49.99244376,49.99249265] w=9.78e-07
+codex-l dir P108 r=13291 sigma=15.2151228 cert 15.6330420085->15.6330420085 bracket [15.2151228,15.21513728] w=9.52e-07
+codex-l dir P102 r=12738 sigma=32.8033936 cert 33.1267082774->33.1267082774 bracket [32.80336121,32.80339361] w=9.88e-07
+codex-l dir P1303 r=11777 sigma=74.1742965 cert 74.3837684329->74.3837684327 bracket [74.17429648,74.17436009] w=8.58e-07
+codex-l dir P47 r=8090 sigma=8.81417185 cert 8.94798831169->8.94798831169 bracket [8.814171838,8.814179529] w=8.73e-07
+codex-l dir P17 r=8023 sigma=44.8855443 cert 44.8869535948->44.8869535948 bracket [44.88551822,44.88554838] w=6.72e-07
+codex-l dir P264 r=7846 sigma=21.0302013 cert 21.6946451259->21.6946451259 bracket [21.0302013,21.0302164] w=7.18e-07
+codex-l dir P509 r=7315 sigma=30.8902547 cert 30.9164258418->30.9164258418 bracket [30.89025462,30.89027751] w=7.41e-07
+codex-l dir P495 r=7154 sigma=53.7220227 cert 53.8445425566->53.8445425566 bracket [53.72202265,53.7220514] w=5.35e-07
+codex-l dir P119 r=6684 sigma=17.7508656 cert 17.7555599393->17.7555599393 bracket [17.75085199,17.75086565] w=7.69e-07
+codex-l dir P140 r=6678 sigma=35.9515368 cert 35.9916588589->35.9916588589 bracket [35.95153681,35.95156169] w=6.92e-07
+codex-l dir P131 r=6581 sigma=29.5315354 cert 29.5334894335->29.5334894335 bracket [29.53153535,29.53154537] w=3.39e-07
+codex-l dir P530 r=6285 sigma=53.9317614 cert 54.0448761494->54.0448761493 bracket [53.93176144,53.93178365] w=4.12e-07
+codex-l dir P101 r=5780 sigma=20.783625 cert 21.0034794997->21.0034794997 bracket [20.783625,20.7836452] w=9.72e-07
+codex-l dir P551 r=4213 sigma=18.6526781 cert 18.7417181573->18.7417181573 bracket [18.65267813,18.6526911] w=6.96e-07
+codex-l dir P172 r=4012 sigma=33.5414477 cert 33.5419725655->33.5419725655 bracket [33.54144771,33.54145881] w=3.31e-07
+codex-l dir P641 r=3375 sigma=25.5970945 cert 25.5986837298->25.5986837298 bracket [25.59707597,25.59710101] w=9.78e-07
+codex-l dir P840 r=3259 sigma=17.0345182 cert 17.2886341377->17.2886341377 bracket [17.0345182,17.03453481] w=9.75e-07
+codex-l dir P3373 r=2885 sigma=16.9705627 cert 16.9705627485->16.9705627485 bracket [16.97055374,16.97056275] w=5.31e-07 SIGMA-OUTSIDE-BRACKET
+codex-l dir P37 r=2426 sigma=28.2189567 cert 28.2461409169->28.2461409165 bracket [28.21895672,28.21897154] w=5.25e-07
+codex-l dir P26 r=2192 sigma=2.02852349 cert 2.03121892964->2.03121892964 bracket [2.028521512,2.028523488] w=9.74e-07 SIGMA-OUTSIDE-BRACKET
+codex-l dir P40 r=1854 sigma=6.55743852 cert 6.55743852431->6.5574385243 bracket [6.557438524,6.557438524] w=1.35e-16 SIGMA-OUTSIDE-BRACKET
+codex-l dir P737 r=1808 sigma=8.86346534 cert 9.0152734259->9.01527342589 bracket [8.863465339,8.863472535] w=8.12e-07
+codex-l dir P57 r=1687 sigma=5.05078332 cert 5.05078387256->5.05078387255 bracket [5.050778287,5.05078332] w=9.97e-07 SIGMA-OUTSIDE-BRACKET
+codex-l dir P740 r=1282 sigma=8.94427191 cert 8.94427191->8.94427191 bracket [8.94427191,8.94427191] w=1.99e-16 SIGMA-OUTSIDE-BRACKET
+codex-l dir P361 r=1270 sigma=14.4563722 cert 14.4580576784->14.4580576784 bracket [14.45637219,14.45637571] w=2.44e-07
+codex-l dir P30 r=1110 sigma=24.9844424 cert 25.0038344099->25.0038344099 bracket [24.98444244,24.98445716] w=5.89e-07
+codex-l dir P407 r=1033 sigma=21.4698074 cert 21.5389567826->21.5389567826 bracket [21.4698074,21.46982781] w=9.50e-07
+com-dblp dir com-dblp r=1049866 sigma=74.1624325 cert 74.2104191644->74.2104191637 bracket [74.16240256,74.16245098] w=6.53e-07
+com-dblp sym com-dblp r=2099732 sigma=115.846976 cert 115.948267781->115.948267274 bracket [115.8469475,115.847019] w=6.17e-07
+com-youtube dir com-youtube r=2987624 sigma=184.136002 cert 210.846268977->203.543607121 bracket [184.1360021,184.1360181] w=8.69e-08 SIGMA-OUTSIDE-BRACKET
+com-youtube sym com-youtube r=5975248 sigma=210.39529 cert 270.329760934->239.511391007 bracket [210.3952897,210.3953429] w=2.53e-07
+email-Eu-core dir email-Eu-core r=25571 sigma=64.9012062 cert 64.9430570359->64.9430570357 bracket [64.90120625,64.90123205] w=3.98e-07
+email-Eu-core sym email-Eu-core r=32770 sigma=77.1717623 cert 77.2085656658->77.2085656652 bracket [77.17176228,77.17178788] w=3.32e-07
+sci50 dir <http://example.org/sci/is-a> r=6941550 sigma=269.178396 cert 269.192750509->269.192750377 bracket [269.1783961,269.1785053] w=4.06e-07
+sci50 dir <http://example.org/sci/Profession> r=3018200 sigma=148.241411 cert 148.352850883->148.352850865 bracket [148.2414109,148.2414974] w=5.84e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/kg/object_profile/prominent_type> r=966200 sigma=62.8569805 cert 62.8569805193->62.8569805193 bracket [62.85698052,62.85698052] w=1.13e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/label> r=958500 sigma=7.07106781 cert 7.07106781187->7.07106781187 bracket [7.071067812,7.071067812] w=1.26e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Gender> r=929450 sigma=129.722781 cert 129.722781345->129.722781345 bracket [129.7227813,129.7227813] w=2.19e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Country_of_nationality> r=841900 sigma=78.7218873 cert 78.8296407377->78.8296395369 bracket [78.72188727,78.72189686] w=1.22e-07
+sci50 dir <http://example.org/sci/Date_of_birth> r=808950 sigma=53.8516481 cert 53.8516480713->53.8516480713 bracket [53.85164807,53.85164807] w=1.32e-16 SIGMA-OUTSIDE-BRACKET OLD-CERT-INVALID
+sci50 dir <http://example.org/sci/Place_of_birth> r=630600 sigma=19.1311265 cert 19.1311264697->19.1311264697 bracket [19.13112647,19.13112647] w=1.86e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Date_of_death> r=531850 sigma=31.6227766 cert 31.6227766017->31.6227766017 bracket [31.6227766,31.6227766] w=1.12e-16 SIGMA-OUTSIDE-BRACKET OLD-CERT-INVALID
+sci50 dir <http://example.org/sci/Award_Won> r=339600 sigma=24.6599725 cert 25.1149655337->25.114965533 bracket [24.6599725,24.65997742] w=2.00e-07
+sci50 dir <http://example.org/sci/Place_of_death> r=313500 sigma=17.175564 cert 17.1755640373->17.1755640373 bracket [17.17556404,17.17556404] w=2.07e-16 SIGMA-OUTSIDE-BRACKET OLD-CERT-INVALID
+sci50 dir <http://example.org/sci/Employment_history> r=261950 sigma=14.4477327 cert 14.9469082977->14.9469082977 bracket [14.44773265,14.44774553] w=8.91e-07
+sci50 dir <http://example.org/sci/Children> r=148950 sigma=4.95079914 cert 4.95079915023->4.95079915022 bracket [4.950794273,4.950799143] w=9.83e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Open_Library_ID> r=134750 sigma=21.2132034 cert 21.2132034356->21.2132034356 bracket [21.21319033,21.21320344] w=6.18e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Influenced_By> r=131850 sigma=10.4952932 cert 10.7800789265->10.7800789265 bracket [10.49529324,10.49530224] w=8.58e-07
+sci50 dir <http://example.org/sci/Film_performance> r=122600 sigma=17.7498527 cert 17.7567211685->17.7567211685 bracket [17.74984873,17.74985682] w=4.56e-07
+sci50 dir <http://example.org/sci/Spouse_(or_domestic_partner)> r=116850 sigma=2.44948974 cert 2.44948974278->2.44948974278 bracket [2.449489743,2.449489743] w=1.81e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Place_of_burial> r=101900 sigma=26.4575402 cert 26.4575401854->26.4575401854 bracket [26.45752795,26.45754019] w=4.63e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/TV_episode_performance> r=95100 sigma=16.0623784 cert 16.0623784042->16.0623784042 bracket [16.06237017,16.0623784] w=5.12e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Academic_advisor> r=94050 sigma=4.62004848 cert 4.69132514658->4.69132514657 bracket [4.620044415,4.620048688] w=9.25e-07
+sci50 dir <http://example.org/sci/Organization_founded> r=82000 sigma=3.7839713 cert 3.79946185006->3.79946185006 bracket [3.783967673,3.783971302] w=9.59e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Ethnicity> r=78300 sigma=17.9724486 cert 18.0510132449->18.0510132449 bracket [17.97244859,17.97245749] w=4.95e-07
+sci50 dir <http://example.org/sci/Sibling> r=76300 sigma=4.35889894 cert 4.35889894354->4.35889894354 bracket [4.358894709,4.358898944] w=9.71e-07
+sci50 dir <http://example.org/sci/Film_appeared_in> r=74500 sigma=24.5578643 cert 24.5584279262->24.5584279262 bracket [24.55786072,24.55788302] w=9.08e-07
+sci50 dir <http://example.org/sci/Award_Nominations> r=68100 sigma=104.847458 cert 105.465955989->105.465955989 bracket [104.8474582,104.8475266] w=6.52e-07
+sci50 dir <http://example.org/sci/Religion> r=67700 sigma=16.1733945 cert 16.3334983115->16.3334983115 bracket [16.17339449,16.17340758] w=8.10e-07
+sci50 dir <http://example.org/sci/Name_ID> r=65450 sigma=12.2474487 cert 12.2474487139->12.2474487139 bracket [12.24744065,12.24744871] w=6.58e-07
+sci50 dir <http://example.org/sci/Invention> r=57700 sigma=7.48331477 cert 7.48331477355->7.48331477355 bracket [7.483307469,7.483314774] w=9.76e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Cause_of_death> r=48700 sigma=10.2070969 cert 10.2092638618->10.2092638618 bracket [10.20708732,10.20709694] w=9.42e-07
+sci50 dir <http://example.org/sci/Project> r=23150 sigma=5.03626084 cert 5.05094554168->5.05094554168 bracket [5.036256576,5.036260839] w=8.46e-07
+sci50 dir <http://example.org/sci/Governance_of> r=22400 sigma=4.02478898 cert 4.05040944388->4.05040944388 bracket [4.024785007,4.024788977] w=9.86e-07
+sci50 dir <http://example.org/sci/Department> r=18750 sigma=4.70141424 cert 4.70523844864->4.70523844863 bracket [4.701412758,4.701417314] w=9.69e-07
+sci50 dir <http://example.org/sci/Starring_TV_role> r=18750 sigma=10.0498756 cert 10.0498756211->10.0498756211 bracket [10.04987139,10.04987562] w=4.21e-07
+sci50 dir <http://example.org/sci/Peer> r=18050 sigma=3.48524648 cert 3.50630198588->3.50630198588 bracket [3.485246475,3.48524995] w=9.97e-07
+sci50 dir <http://example.org/sci/TV_regular_appearance> r=17450 sigma=8.88891548 cert 8.8889154811->8.88891548109 bracket [8.888910375,8.88891548] w=5.74e-07
+sci50 dir <http://example.org/sci/Research_area> r=17350 sigma=7.07106781 cert 7.07106781187->7.07106781187 bracket [7.071067812,7.071067812] w=1.26e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Party> r=16950 sigma=6.64854367 cert 6.70430385631->6.70430385631 bracket [6.648543667,6.648549475] w=8.74e-07
+sci50 dir <http://example.org/sci/Leader_of> r=14350 sigma=2.44948974 cert 2.44948974278->2.44948974278 bracket [2.449489743,2.449489743] w=1.81e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Specialization_Of> r=14150 sigma=13.7744928 cert 13.7747086612->13.7747086612 bracket [13.77449275,13.77449406] w=9.49e-08
+sci50 dir <http://example.org/sci/Language> r=13650 sigma=9.50989038 cert 9.54353501665->9.54353501664 bracket [9.509890377,9.50989368] w=3.47e-07
+sci50 dir <http://example.org/sci/Patent> r=11350 sigma=4.61081453 cert 4.61082623545->4.61082623544 bracket [4.610810437,4.610814532] w=8.88e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Space_Mission> r=9950 sigma=3.21991269 cert 3.28135622967->3.28135622967 bracket [3.219912685,3.21991568] w=9.30e-07
+sci50 dir <http://example.org/sci/Musical_Genre> r=8950 sigma=5.18362306 cert 5.20396718794->5.20396718793 bracket [5.183623063,5.183627022] w=7.64e-07
+sci50 dir <http://example.org/sci/uri> r=7450 sigma=10 cert 10->10 bracket [9.999994598,10] w=5.40e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Height> r=6700 sigma=24.4948974 cert 24.4948974278->24.4948974278 bracket [24.49489743,24.49489743] w=1.45e-16 SIGMA-OUTSIDE-BRACKET OLD-CERT-INVALID
+sci50 dir <http://example.org/sci/Episode_appearance> r=6700 sigma=5.29150262 cert 5.29150262213->5.29150262213 bracket [5.291502622,5.291502622] w=1.68e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Languages_Designed> r=5950 sigma=3.18168283 cert 3.18183003187->3.18183003187 bracket [3.181680064,3.181682829] w=8.69e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Participated_in_conflict> r=5900 sigma=5.94385443 cert 5.99014766832->5.99014766832 bracket [5.943854425,5.943859749] w=8.96e-07
+sci50 dir <http://example.org/sci/Member_of> r=5800 sigma=7.14142843 cert 7.14142842855->7.14142842854 bracket [7.141423661,7.141428429] w=6.68e-07
+sci50 dir <http://example.org/sci/Film_Executive_Produced> r=5500 sigma=7.74596669 cert 7.74596669242->7.74596669241 bracket [7.7459626,7.745966692] w=5.28e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Service> r=5450 sigma=4.86877319 cert 4.88029012429->4.88029012428 bracket [4.868773187,4.868775911] w=5.60e-07
+sci50 dir <http://example.org/sci/First_ascent> r=5150 sigma=3.38780542 cert 3.38897179715->3.38897179715 bracket [3.387802333,3.387805447] w=9.19e-07
+sci50 dir <http://example.org/sci/Belongs_to_Order> r=5000 sigma=4.37852752 cert 4.37864610856->4.37864610856 bracket [4.378523172,4.378527522] w=9.93e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Government_Position_Held> r=4900 sigma=3.47624442 cert 3.52191116569->3.52191116568 bracket [3.47624437,3.476246839] w=7.10e-07
+sci50 dir <http://example.org/sci/Family> r=4900 sigma=2.70236482 cert 2.70953360646->2.70953360645 bracket [2.702364818,2.702366837] w=7.47e-07
+sci50 dir <http://example.org/sci/Hall_of_fame_induction> r=4700 sigma=6.00237854 cert 6.00237858208->6.00237858208 bracket [6.002372733,6.00237854] w=9.68e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Organization_advised> r=4550 sigma=3.12342942 cert 3.12614083153->3.12614083153 bracket [3.123428551,3.123430609] w=6.59e-07
+sci50 dir <http://example.org/sci/Discovered> r=4150 sigma=2.45736489 cert 2.47261138232->2.47261138231 bracket [2.457364299,2.45736629] w=8.10e-07
+sci50 dir <http://example.org/sci/Instrument_Played> r=3750 sigma=4.82301116 cert 4.8466520874->4.8466520874 bracket [4.823011157,4.823013099] w=4.03e-07
+sci50 dir <http://example.org/sci/Contributing_author_to> r=3650 sigma=7.74596669 cert 7.74596669242->7.74596669241 bracket [7.745960028,7.745966692] w=8.60e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Space_Agency> r=3550 sigma=7.74596669 cert 7.74596669241->7.74596669241 bracket [7.745966692,7.745966692] w=1.15e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/kp_lw/philosophy_influencer/influencee> r=3350 sigma=4.5169048 cert 4.52510107114->4.52510107114 bracket [4.516904804,4.516908263] w=7.66e-07
+sci50 dir <http://example.org/sci/Art_Form> r=2800 sigma=5.77742353 cert 5.77828179408->5.77828179408 bracket [5.777422461,5.777426125] w=6.34e-07
+sci50 dir <http://example.org/sci/Record_Label> r=2650 sigma=3.00476079 cert 3.00954140187->3.00954140187 bracket [3.004760776,3.004763061] w=7.60e-07
+sci50 dir <http://example.org/sci/School_or_Movement> r=2550 sigma=3.19370447 cert 3.20116504216->3.20116504216 bracket [3.193704459,3.193706847] w=7.48e-07
+sci50 dir <http://example.org/sci/QuotationsBook_ID> r=2450 sigma=10 cert 10->10 bracket [9.999993294,10] w=6.71e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/People_who_have_had_this_role> r=2250 sigma=4.79583152 cert 4.79583152331->4.79583152331 bracket [4.795831523,4.795831523] w=1.85e-16 SIGMA-OUTSIDE-BRACKET OLD-CERT-INVALID
+sci50 dir <http://example.org/sci/Title> r=2200 sigma=3 cert 3->3 bracket [3,3] w=0.00e+00 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/TV_program_produced> r=2050 sigma=10 cert 10->10 bracket [9.999999365,10] w=6.35e-08
+sci50 dir <http://example.org/sci/Condition> r=2050 sigma=1.80193774 cert 1.8053418677->1.8053418677 bracket [1.801936143,1.801937736] w=8.84e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Periodical_edited> r=1750 sigma=2.23606798 cert 2.2360679775->2.2360679775 bracket [2.236067977,2.236067977] w=1.99e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/THOMAS_ID> r=1750 sigma=7.07106781 cert 7.07106781187->7.07106781187 bracket [7.071067812,7.071067812] w=1.26e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Appears_in_ranked_list> r=1700 sigma=3.20575497 cert 3.2119377095->3.2119377095 bracket [3.205754967,3.205757556] w=8.08e-07
+sci50 dir <http://example.org/sci/Weight> r=1500 sigma=10 cert 10->10 bracket [10,10] w=0.00e+00 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/TV_Program_(recurring_writer)> r=1450 sigma=10.0250935 cert 10.0250935127->10.0250935127 bracket [10.02508912,10.02509351] w=4.38e-07 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Medical_Specialty> r=1350 sigma=2.64575131 cert 2.64575131107->2.64575131106 bracket [2.645751311,2.645751311] w=1.68e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Theater_Role> r=1300 sigma=2.82842712 cert 2.82842712475->2.82842712475 bracket [2.828427125,2.828427125] w=1.57e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Structure_Owned> r=1200 sigma=1.41421356 cert 1.41421356237->1.41421356237 bracket [1.414213562,1.414213562] w=1.57e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Speech_or_presentation> r=1100 sigma=2.44948974 cert 2.44948974278->2.44948974278 bracket [2.449489743,2.449489743] w=1.81e-16 SIGMA-OUTSIDE-BRACKET
+sci50 dir <http://example.org/sci/Named_after> r=1050 sigma=2.44948974 cert 2.44948974278->2.44948974278 bracket [2.449489743,2.449489743] w=1.81e-16 SIGMA-OUTSIDE-BRACKET OLD-CERT-INVALID
+sci50 dir <http://example.org/sci/Place_Musical_Career_Began> r=1000 sigma=1.41421356 cert 1.41421356237->1.41421356237 bracket [1.414213562,1.414213562] w=1.57e-16 SIGMA-OUTSIDE-BRACKET
+soc-Epinions1 dir soc-Epinions1 r=508837 sigma=139.615779 cert 149.137743264->142.200573 bracket [139.6157791,139.6158144] w=2.53e-07
+soc-Epinions1 sym soc-Epinions1 r=811480 sigma=184.175129 cert 187.720869599->187.452788607 bracket [184.1751292,184.1751453] w=8.74e-08
+wikidata5m dir P31 r=3841788 sigma=1228.67266 cert 1228.67267882->1228.67265847 bracket [1228.672372,1228.672658] w=2.33e-07
+wikidata5m dir P17 r=1375339 sigma=606.485915 cert 606.490715682->606.490715388 bracket [606.4856731,606.4862305] w=9.19e-07
+wikidata5m dir P27 r=1146848 sigma=563.572458 cert 563.606424316->563.606416409 bracket [563.5724538,563.5726712] w=3.86e-07
+wikidata5m dir P106 r=1101408 sigma=410.030539 cert 412.461917392->412.210129126 bracket [410.0305389,410.0305389] w=4.09e-13 SIGMA-OUTSIDE-BRACKET
+wikidata5m dir P131 r=919491 sigma=100.201674 cert 100.314895664->100.314890348 bracket [100.2015827,100.2016826] w=9.96e-07
+wikidata5m dir P19 r=856424 sigma=108.646339 cert 108.648737401->108.6487374 bracket [108.6462464,108.6463395] w=8.56e-07
+wikidata5m dir P69 r=439909 sigma=119.626613 cert 120.879889829->120.879882856 bracket [119.626613,119.6266242] w=9.34e-08
+wikidata5m dir P47 r=429980 sigma=10.2597287 cert 10.3126227645->10.3126227645 bracket [10.25971935,10.25972929] w=9.69e-07
+wikidata5m dir P20 r=279197 sigma=104.546692 cert 104.547374386->104.547374384 bracket [104.5466403,104.5466917] w=4.91e-07
+wikidata5m dir P495 r=261001 sigma=344.610776 cert 344.701556652->344.699514669 bracket [344.6107758,344.6108051] w=8.49e-08
+wikidata5m dir P361 r=136333 sigma=41.1339601 cert 41.1339645805->41.1339645805 bracket [41.1339276,41.13396013] w=7.91e-07
+wikidata5m dir P150 r=108630 sigma=40.4637364 cert 40.675771285->40.6757712849 bracket [40.46373633,40.46376685] w=7.54e-07
+wikidata5m dir P463 r=96454 sigma=96.5051989 cert 98.9483146683->98.8158187627 bracket [96.50519889,96.50522866] w=3.08e-07
+wikidata5m dir P279 r=95794 sigma=61.8708568 cert 61.8710305157->61.8710305156 bracket [61.87084161,61.87085853] w=2.74e-07
+wikidata5m dir P159 r=82598 sigma=51.3524799 cert 51.3690271986->51.3690271986 bracket [51.35247941,51.35249709] w=3.44e-07
+wikidata5m dir P108 r=80172 sigma=48.3071204 cert 50.842612034->50.8425502304 bracket [48.30712044,48.30712808] w=1.58e-07
+wikidata5m dir P527 r=65857 sigma=58.9403718 cert 58.9788336423->58.9788326822 bracket [58.9403718,58.94039676] w=4.24e-07
+wikidata5m dir P276 r=33952 sigma=20.8365241 cert 20.911955237->20.9119552369 bracket [20.83652404,20.83653965] w=7.49e-07
+wikidata5m dir P36 r=20785 sigma=5.29560818 cert 5.2957286337->5.2957286337 bracket [5.295603253,5.29560818] w=9.30e-07
+wikidata5m dir P30 r=20542 sigma=114.843382 cert 114.843413498->114.843413498 bracket [114.8433716,114.843389] w=1.52e-07
+wikidata5m dir P706 r=18618 sigma=24.7790234 cert 24.7790233867->24.7790233867 bracket [24.77902339,24.77902339] w=1.43e-16 SIGMA-OUTSIDE-BRACKET
+wikidata5m dir P740 r=15179 sigma=28.8617603 cert 28.8617602516->28.8617602515 bracket [28.86173938,28.86176025] w=7.23e-07 SIGMA-OUTSIDE-BRACKET
+wikidata5m dir P206 r=7931 sigma=30.8076894 cert 30.8232862119->30.8232862119 bracket [30.80768944,30.80769499] w=1.80e-07
+wikidata5m dir P1376 r=6697 sigma=3.74336453 cert 3.74421713164->3.74421713163 bracket [3.743361369,3.743364526] w=8.43e-07
+wiki-Vote dir wiki-Vote r=103689 sigma=103.187611 cert 103.436185782->103.43618578 bracket [103.1876107,103.1877012] w=8.77e-07
+wiki-Vote sym wiki-Vote r=201524 sigma=138.150225 cert 138.589819082->138.589819038 bracket [138.1502254,138.1503356] w=7.98e-07
+views 153; old certificate below the exact lower bound: 6
+  sci50 <http://example.org/sci/Date_of_birth> old 53.85164807134504 lo_sq 2900 maxdeg 2900
+  sci50 <http://example.org/sci/Date_of_death> old 31.622776601683793 lo_sq 1000 maxdeg 1000
+  sci50 <http://example.org/sci/Place_of_death> old 17.175564037317667 lo_sq 295 maxdeg 295
+  sci50 <http://example.org/sci/Height> old 24.49489742783178 lo_sq 600 maxdeg 600
+  sci50 <http://example.org/sci/People_who_have_had_this_role> old 4.795831523312719 lo_sq 23 maxdeg 23
+  sci50 <http://example.org/sci/Named_after> old 2.449489742783178 lo_sq 6 maxdeg 6
+not converged to 1e-6: 0
+sigma estimate outside exact bracket: 52
+  codex-l P19 sigma 31.496065836996138 [31.4960356221751, 31.49606583699608] outside by 1.9e-15 relative
+  codex-l P20 sigma 35.36966038712958 [35.36962700119549, 35.36966038712949] outside by 2.5e-15 relative
+  codex-l P3373 sigma 16.970562748477143 [16.970553740686775, 16.970562748477143] outside by 1.2e-16 relative
+  codex-l P26 sigma 2.0285234880268845 [2.028521511590215, 2.028523488026884] outside by 2.5e-16 relative
+  codex-l P40 sigma 6.557438524302 [6.557438524302, 6.557438524302001] outside by 4.5e-17 relative
+  codex-l P57 sigma 5.050783320383514 [5.050778287155597, 5.050783320383514] outside by 9.5e-17 relative
+  codex-l P740 sigma 8.94427190999916 [8.944271909999157, 8.94427190999916] outside by 4.9e-17 relative
+  com-youtube com-youtube sigma 184.13600212275603 [184.1360021227564, 184.1360181244607] outside by 2.0e-15 relative
+  sci50 <http://example.org/sci/Profession> sigma 148.24141088965294 [148.24141088965493, 148.24149740823623] outside by 1.3e-14 relative
+  sci50 <http://example.org/sci/kg/object_profile/prominent_type> sigma 62.856980519266486 [62.856980519270884, 62.85698051927089] outside by 7.0e-14 relative
+  sci50 <http://example.org/sci/label> sigma 7.0710678118654755 [7.071067811865475, 7.0710678118654755] outside by 3.7e-17 relative
+  sci50 <http://example.org/sci/Gender> sigma 129.7227813454155 [129.72278134545218, 129.7227813454522] outside by 2.8e-13 relative
+  sci50 <http://example.org/sci/Date_of_birth> sigma 53.85164807134504 [53.85164807134504, 53.851648071345046] outside by 2.1e-17 relative
+  sci50 <http://example.org/sci/Place_of_birth> sigma 19.131126469708892 [19.13112646970899, 19.131126469708992] outside by 5.2e-15 relative
+  sci50 <http://example.org/sci/Date_of_death> sigma 31.622776601683793 [31.622776601683793, 31.622776601683796] outside by 2.4e-17 relative
+  sci50 <http://example.org/sci/Place_of_death> sigma 17.17556403731736 [17.175564037317667, 17.17556403731767] outside by 1.8e-14 relative
+  sci50 <http://example.org/sci/Children> sigma 4.950799142508646 [4.95079427345372, 4.950799142508643] outside by 5.7e-16 relative
+  sci50 <http://example.org/sci/Open_Library_ID> sigma 21.21320343559643 [21.213190329880494, 21.213203435596427] outside by 2.0e-16 relative
+  sci50 <http://example.org/sci/Spouse_(or_domestic_partner)> sigma 2.4494897427831783 [2.449489742783178, 2.4494897427831783] outside by 9.3e-17 relative
+  sci50 <http://example.org/sci/Place_of_burial> sigma 26.457540185396102 [26.457527946131844, 26.457540185395466] outside by 2.4e-14 relative
+  sci50 <http://example.org/sci/TV_episode_performance> sigma 16.062378404209017 [16.062370173082858, 16.062378404209014] outside by 4.1e-16 relative
+  sci50 <http://example.org/sci/Organization_founded> sigma 3.783971302099445 [3.7839676727483798, 3.783971302099444] outside by 4.1e-16 relative
+  sci50 <http://example.org/sci/Invention> sigma 7.483314773547895 [7.483307469177344, 7.4833147735478835] outside by 1.6e-15 relative
+  sci50 <http://example.org/sci/Research_area> sigma 7.071067811865471 [7.071067811865475, 7.0710678118654755] outside by 5.9e-16 relative
+  sci50 <http://example.org/sci/Leader_of> sigma 2.4494897427831783 [2.449489742783178, 2.4494897427831783] outside by 9.3e-17 relative
+  sci50 <http://example.org/sci/Patent> sigma 4.610814531942439 [4.610810436610505, 4.610814531942439] outside by 1.1e-16 relative
+  sci50 <http://example.org/sci/uri> sigma 10.000000000000002 [9.99999459833928, 10.0] outside by 1.8e-16 relative
+  sci50 <http://example.org/sci/Height> sigma 24.49489742783178 [24.49489742783178, 24.494897427831784] outside by 1.6e-17 relative
+  sci50 <http://example.org/sci/Episode_appearance> sigma 5.29150262212918 [5.2915026221291805, 5.291502622129181] outside by 2.9e-16 relative
+  sci50 <http://example.org/sci/Languages_Designed> sigma 3.1816828291986714 [3.181680063785077, 3.1816828291986714] outside by 5.4e-17 relative
+  sci50 <http://example.org/sci/Film_Executive_Produced> sigma 7.745966692414848 [7.745962599718555, 7.745966692414834] outside by 1.9e-15 relative
+  sci50 <http://example.org/sci/Belongs_to_Order> sigma 4.37852752183967 [4.378523172172453, 4.378527521839669] outside by 2.4e-16 relative
+  sci50 <http://example.org/sci/Hall_of_fame_induction> sigma 6.002378540458619 [6.002372732969887, 6.002378540458617] outside by 5.8e-16 relative
+  sci50 <http://example.org/sci/Contributing_author_to> sigma 7.745966692414855 [7.745960028296727, 7.745966692414834] outside by 2.8e-15 relative
+  sci50 <http://example.org/sci/Space_Agency> sigma 7.745966692414804 [7.745966692414833, 7.745966692414834] outside by 3.9e-15 relative
+  sci50 <http://example.org/sci/QuotationsBook_ID> sigma 10.000000000000002 [9.9999932944932, 10.0] outside by 1.8e-16 relative
+  sci50 <http://example.org/sci/People_who_have_had_this_role> sigma 4.795831523312719 [4.795831523312719, 4.79583152331272] outside by 8.9e-17 relative
+  sci50 <http://example.org/sci/Title> sigma 3.0000000000000004 [3.0, 3.0] outside by 1.5e-16 relative
+  sci50 <http://example.org/sci/Condition> sigma 1.8019377358048385 [1.8019361429805951, 1.8019377358048383] outside by 1.3e-16 relative
+  sci50 <http://example.org/sci/Periodical_edited> sigma 2.23606797749979 [2.2360679774997894, 2.23606797749979] outside by 4.9e-17 relative
+  sci50 <http://example.org/sci/THOMAS_ID> sigma 7.0710678118654755 [7.071067811865475, 7.0710678118654755] outside by 3.7e-17 relative
+  sci50 <http://example.org/sci/Weight> sigma 10.000000000000007 [10.0, 10.0] outside by 7.1e-16 relative
+  sci50 <http://example.org/sci/TV_Program_(recurring_writer)> sigma 10.025093512656287 [10.025089122791316, 10.025093512656285] outside by 2.5e-16 relative
+  sci50 <http://example.org/sci/Medical_Specialty> sigma 2.6457513110645907 [2.6457513110645903, 2.6457513110645907] outside by 4.7e-17 relative
+  sci50 <http://example.org/sci/Theater_Role> sigma 2.8284271247461907 [2.82842712474619, 2.8284271247461903] outside by 2.3e-16 relative
+  sci50 <http://example.org/sci/Structure_Owned> sigma 1.4142135623730954 [1.414213562373095, 1.4142135623730951] outside by 2.3e-16 relative
+  sci50 <http://example.org/sci/Speech_or_presentation> sigma 2.449489742783178 [2.449489742783178, 2.4494897427831783] outside by 8.9e-17 relative
+  sci50 <http://example.org/sci/Named_after> sigma 2.449489742783178 [2.449489742783178, 2.4494897427831783] outside by 8.9e-17 relative
+  sci50 <http://example.org/sci/Place_Musical_Career_Began> sigma 1.4142135623730956 [1.414213562373095, 1.4142135623730951] outside by 3.8e-16 relative
+  wikidata5m P106 sigma 410.0305388721652 [410.03053887196165, 410.03053887212945] outside by 8.7e-14 relative
+  wikidata5m P706 sigma 24.779023386727733 [24.779023386727733, 24.779023386727737] outside by 5.7e-17 relative
+  wikidata5m P740 sigma 28.861760251542705 [28.861739379323623, 28.86176025154267] outside by 1.3e-15 relative
+exit 0

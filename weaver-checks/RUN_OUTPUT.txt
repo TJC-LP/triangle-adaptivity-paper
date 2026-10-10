@@ -1,0 +1,127 @@
+# Weaver independent checks, 2026-10-09
+
+## families1.py
+== Theorem 5.6 / Table 4: U(m) = G8(m) + two rotations ==
+m=2: N=2208 (paper 2208), B2=1280 (paper 1280), C=(864,864,864) (paper 864), Out=0, C/(N+B2)=0.248, forward moments=(1280, 1280, 1280), reverse=(11392, 11392, 11392)
+   C/bound(Thm5.3) = 0.182 (paper 0.182)
+   single G8: C=((576, 32, 256)) paper (m^9+m^6, m^5, m^8)=(576,32,256); sizes (64, 288, 384) paper (64,288,384)
+m=3: N=48843 (paper 48843), B2=32805 (paper 32805), C=(27216,27216,27216) (paper 27216), Out=0, C/(N+B2)=0.333, forward moments=(32805, 32805, 32805), reverse=(1065069, 1065069, 1065069)
+   C/bound(Thm5.3) = 0.192 (paper 0.192)
+   single G8: C=((20412, 243, 6561)) paper (m^9+m^6, m^5, m^8)=(20412,243,6561); sizes (729, 6804, 8748) paper (729,6804,8748)
+
+== Remark 5.9(a): padded U(m) ==
+m=2: padded N=6888, Out=1560, C=4272 (>= m^9=512: True), B2~3864, ratio C/(N+B2)=0.397 (paper 0.397)
+m=3: padded N=167184, Out=39447, C=112914 (>= m^9=19683: True), B2~98496, ratio C/(N+B2)=0.425 (paper 0.425)
+
+== Theorem 5.11: F_{i,j}(u) ==
+(i,j,u)=(1,1,2): N=1440 in [u^8i=256, 12u^8i=3072]: True; C=864 >= u^(12i-3j)=512: True; B2=1024 <= 4u^(12i-4j)=1024: True; fwd moments each = (1024, 1024, 1024) (paper 3u^(12i-4j)+u^8i = 1024); C/(N^(3/8) B2^(3/4)) = 0.312
+(i,j,u)=(1,1,3): N=29160 in [u^8i=6561, 12u^8i=78732]: True; C=27216 >= u^(12i-3j)=19683: True; B2=26244 <= 4u^(12i-4j)=26244: True; fwd moments each = (26244, 26244, 26244) (paper 3u^(12i-4j)+u^8i = 26244); C/(N^(3/8) B2^(3/4)) = 0.279
+(i,j,u)=(2,1,2): N=368640 in [u^8i=65536, 12u^8i=786432]: True; C=2187264 >= u^(12i-3j)=2097152: True; B2=3211264 <= 4u^(12i-4j)=4194304: True; fwd moments each = (3211264, 3211264, 3211264) (paper 3u^(12i-4j)+u^8i = 3211264); C/(N^(3/8) B2^(3/4)) = 0.236
+
+== Section 5.3: first violation F_{1,1}(u) union, u=6,7 (closed forms) ==
+u=6: N=6.042e+06, C/(N+B2)=0.926
+u=7: N=2.017e+07, C/(N+B2)=1.070
+U(m) m=10: N=6.333e+08, C/(N+B2)=0.972
+U(m) m=11: N=1.350e+09, C/(N+B2)=1.063
+U(m) cubic form m=6: C^3/(N^3+abg) = 0.844
+U(m) cubic form m=7: C^3/(N^3+abg) = 1.293
+
+== Theorem 5.10: I_v (fully reduced) ==
+v=1: fully reduced=True, Out=2 (paper v^10+v^12=2), per-root=(4, 4, 4) (paper Cx=4, Cy=4, Cz=4), sizes=(2, 2, 2) (paper (2, 2, 2)), moments=((4, 2, 2), (2, 2, 4)) (paper fwd (4, 2, 2), rev (2, 2, 4))
+   union: fully reduced=True, N=18 (paper 18), C=12 (paper 12), B2^3=512 vs (7v^14+v^7)^3=512
+v=2: fully reduced=True, Out=5120 (paper v^10+v^12=5120), per-root=(35904, 6656, 9280) (paper Cx=35904, Cy=6656, Cz=9280), sizes=(2048, 4608, 2112) (paper (2048, 4608, 2112)), moments=((65536, 32768, 16512), (66560, 73728, 69696)) (paper fwd (65536, 32768, 16512), rev (66560, 73728, 69696))
+   union: fully reduced=True, N=26304 (paper 26304), C=51840 (paper 51840), B2^3=1513586474090496 vs (7v^14+v^7)^3=1513586474090496
+v=8 closed form: C/(N+B2) = 35403550162944/31025101799424 = 45017942/39450457 (paper 45017942/39450457) -> 1.1411
+
+== Gadget D(L,a,h) and Theorem 5.13 ==
+D(4,2,2): match=True; Out=0
+D(8,3,4): match=True; Out=0
+D(12,5,3): match=True; Out=0
+D(16,2,8): match=True; Out=0
+(u,p,q)=(2,1,1): fwd=(1024, 1024, 1024) (paper (1024, 1024, 1024)), rev=(3200, 3200, 3200) all >= fwd: True; C=(864,864,864) paper Cx=864, Cy=864, Cz=864; N=1440 in [u^8q, 12u^8q]=[256,3072]
+   vs F_1,1(2) union: C 864 vs 864, N 1440 vs 1440, B2^3 1073741824 vs 1073741824
+(u,p,q)=(2,9,10) closed forms: C_x <= 4u^(10p-q): True; C_x<=C_y termwise: True; C/(N_hi+B2) in [0.083, 0.985] (paper 0.980 with exact N)
+   exact N=1.2143e+24, C/(N+B2)=0.9804; N^(-1/8) B2^(5/4) / C = 5.654 (<= 4^(5/4)=5.657)
+
+## families2.py
+== Theorem 5.14(1): F_a ==
+a=2: M=(8, 4, 4) (paper a^3,a^2,a^2=8,4,4), C=(8, 8, 8) (paper 2a^2=8 each), Out=4 (a^2=4), N=12 (3a^2=12), reduced=True, fwd=(8, 8, 4) rev=(8, 4, 8) (paper a^3,a^3,a^2 / a^3,a^2,a^3), B2^3=256 = a^8=256
+a=3: M=(27, 9, 9) (paper a^3,a^2,a^2=27,9,9), C=(18, 18, 18) (paper 2a^2=18 each), Out=9 (a^2=9), N=27 (3a^2=27), reduced=True, fwd=(27, 27, 9) rev=(27, 9, 27) (paper a^3,a^3,a^2 / a^3,a^2,a^3), B2^3=6561 = a^8=6561
+a=5: M=(125, 25, 25) (paper a^3,a^2,a^2=125,25,25), C=(50, 50, 50) (paper 2a^2=50 each), Out=25 (a^2=25), N=75 (3a^2=75), reduced=True, fwd=(125, 125, 25) rev=(125, 25, 125) (paper a^3,a^3,a^2 / a^3,a^2,a^3), B2^3=390625 = a^8=390625
+
+== GMR(m) = E(m^3, m, m) ==
+m=2: M=(32, 0, 0) (paper m^5,0,0=32), C=(16, 4, 0) -> C=0 (paper 0), N=36 (paper 2m^4+m^2=36), B2^3=4096 vs m^12=4096, Out=0
+m=3: M=(243, 0, 0) (paper m^5,0,0=243), C=(81, 9, 0) -> C=0 (paper 0), N=171 (paper 2m^4+m^2=171), B2^3=531441 vs m^12=531441, Out=0
+m=4: M=(1024, 0, 0) (paper m^5,0,0=1024), C=(256, 16, 0) -> C=0 (paper 0), N=528 (paper 2m^4+m^2=528), B2^3=16777216 vs m^12=16777216, Out=0
+sharp family E(u^3,6u,6u) u=1: N=48 (paper 48), B2=36 (paper 36, cube exact True), M_R=36 (paper 36)
+sharp family E(u^3,6u,6u) u=2: N=336 (paper 336), B2=576 (paper 576, cube exact True), M_R=1152 (paper 1152)
+sharp family E(u^3,6u,6u) u=3: N=1296 (paper 1296), B2=2916 (paper 2916, cube exact True), M_R=8748 (paper 8748)
+
+== GMIN(m) ==
+m=2: M=(64, 64, 64) (paper m^6=64 each), C=(40, 40, 40) (paper m^5+m^3=40 each), N=168 (paper 168), fwd=(96, 96, 96) (paper 3m^5=96), rev=(272, 272, 272), B2=96 exact=True, Out=0, minM/(N+B2)=0.242 >= m/9=0.222
+   padded: reduced=True, N'=492 (<=7N: True), Out'=108, C'=296 (<= C+9N: True), minM'=212 (>= m^6: True), B2'~268; paper Thm 5.27 padded N'=492, Out'=108
+m=3: M=(729, 729, 729) (paper m^6=729 each), C=(270, 270, 270) (paper m^5+m^3=270 each), N=1053 (paper 1053), fwd=(729, 729, 729) (paper 3m^5=729), rev=(4455, 4455, 4455), B2=729 exact=True, Out=0, minM/(N+B2)=0.409 >= m/9=0.333
+   padded: reduced=True, N'=3321 (<=7N: True), Out'=756, C'=2052 (<= C+9N: True), minM'=1755 (>= m^6: True), B2'~1971; paper Thm 5.27 padded N'=3321, Out'=756
+m=4: M=(4096, 4096, 4096) (paper m^6=4096 each), C=(1088, 1088, 1088) (paper m^5+m^3=1088 each), N=4032 (paper 4032), fwd=(3072, 3072, 3072) (paper 3m^5=3072), rev=(33024, 33024, 33024), B2=3072 exact=True, Out=0, minM/(N+B2)=0.577 >= m/9=0.444
+   padded: reduced=True, N'=13392 (<=7N: True), Out'=3120, C'=8416 (<= C+9N: True), minM'=8304 (>= m^6: True), B2'~8240; paper Thm 5.27 padded N'=13392, Out'=3120
+
+== H_a ==
+a=2: C=(12, 4, 4) (paper a^3+a^2=12, a^2, a^2), Out=0, N=16 (4a^2=16); padded reduced=True, Cx'=24>=a^3: True, C'=20, N'=34, Cx'/(C'+N')=0.44 (paper a=4: 0.61, a=8: 0.97)
+a=4: C=(80, 16, 16) (paper a^3+a^2=80, a^2, a^2), Out=0, N=64 (4a^2=64); padded reduced=True, Cx'=120>=a^3: True, C'=72, N'=124, Cx'/(C'+N')=0.61 (paper a=4: 0.61, a=8: 0.97)
+a=8: C=(576, 64, 64) (paper a^3+a^2=576, a^2, a^2), Out=0, N=256 (4a^2=256); padded reduced=True, Cx'=720>=a^3: True, C'=272, N'=472, Cx'/(C'+N')=0.97 (paper a=4: 0.61, a=8: 0.97)
+
+== Proposition 5.22: Ferrers profiles ==
+k=1: N=9 (9k^2=9), Out=0, C=(3, 3, 2) (paper k^3+2k^2, k^3+2k^2, k^3+k^2 = 3,3,2), M=(3, 1, 1) (paper 3k^3,k^3,k^3), moments=((5, 5, 5), (5, 5, 5)) (paper 5k^3=5 each)
+k=2: N=36 (9k^2=36), Out=0, C=(16, 16, 12) (paper k^3+2k^2, k^3+2k^2, k^3+k^2 = 16,16,12), M=(24, 8, 8) (paper 3k^3,k^3,k^3), moments=((40, 40, 40), (40, 40, 40)) (paper 5k^3=40 each)
+k=3: N=81 (9k^2=81), Out=0, C=(45, 45, 36) (paper k^3+2k^2, k^3+2k^2, k^3+k^2 = 45,45,36), M=(81, 27, 27) (paper 3k^3,k^3,k^3), moments=((135, 135, 135), (135, 135, 135)) (paper 5k^3=135 each)
+
+== Proposition 9.1 (stride grid, 64 samples) ==
+m=65: {'j': 64, 'Mhat_R': 0, 'M': (4225, 65, 65), 'Out': 65, 'N': 12677, 'claim2': True, 'ratio': Fraction(4225, 2839), 'm_over_8': Fraction(65, 8)}
+m=96: {'j': 2, 'Mhat_R': 0, 'M': (866304, 9024, 9024), 'Out': 9024, 'N': 27650, 'claim2': True, 'ratio': Fraction(442368, 13729), 'm_over_8': Fraction(12, 1)}
+m=128: {'j': 1, 'Mhat_R': 0, 'M': (2080768, 16256, 16256), 'Out': 16256, 'N': 49154, 'claim2': True, 'ratio': Fraction(352256, 8171), 'm_over_8': Fraction(16, 1)}
+
+== Theorem 3.7 family and Theorem 3.1 on random regular stats (float sigma via exact-ish power iteration not needed: use block construction) ==
+random regular stats: block witness admissible in all cases: True; min Out/U over 200k = 0.2521 (must be > 0.25)
+Thm 3.7 t=1.0: U=1.0000 (t^2=1.0000), block witness Out=1
+Thm 3.7 t=1.5: U=2.2500 (t^2=2.2500), block witness Out=1
+Thm 3.7 t=1.9: U=3.6100 (t^2=3.6100), block witness Out=1
+Thm 3.7 t=1.99: U=3.9601 (t^2=3.9601), block witness Out=1
+
+## stress.py
+random instances checked: 5987
+  cor4.3           worst lhs/rhs = 1.0000   violations: 0
+  cor5.5.3         worst lhs/rhs = 1.0000   violations: 0
+  lem3.2           worst lhs/rhs = 1.0000   violations: 0
+  lem5.1a          worst lhs/rhs = 0.8750   violations: 0
+  lem5.1b          worst lhs/rhs = 0.7509   violations: 0
+  lem5.1c          worst lhs/rhs = 0.5096   violations: 0
+  lem5.2x          worst lhs/rhs = 0.8121   violations: 0
+  lem5.2x_primed   worst lhs/rhs = 0.8238   violations: 0
+  lem5.2y          worst lhs/rhs = 0.8333   violations: 0
+  lem5.2z          worst lhs/rhs = 0.8333   violations: 0
+  prop4.2_R        worst lhs/rhs = 1.0000   violations: 0
+  prop4.2_S        worst lhs/rhs = 1.0000   violations: 0
+  prop4.2_T        worst lhs/rhs = 1.0000   violations: 0
+  thm3.1_upper     worst lhs/rhs = 1.0000   violations: 0
+  thm5.15          worst lhs/rhs = 1.0000   violations: 0
+  thm5.16R         worst lhs/rhs = 1.0000   violations: 0
+  thm5.16S         worst lhs/rhs = 1.0000   violations: 0
+  thm5.16T         worst lhs/rhs = 1.0000   violations: 0
+  thm5.3           worst lhs/rhs = 0.0118   violations: 0
+  thm5.4           worst lhs/rhs = 0.0000   violations: 0
+
+hill-climb (5x5x5, 3000 flips) best ratios:
+  thm5.3     ['0.0031', '0.0012', '0.0001', '0.0000']  (must stay <= 1)
+  thm5.4     ['0.0000', '0.0000', '0.0000', '0.0000']  (must stay <= 1)
+  thm5.15    ['0.2925', '0.1500', '0.3142', '0.4493']  (must stay <= 1)
+  thm5.16R   ['1.0000', '1.0000', '1.0000', '1.0000']  (must stay <= 1)
+  cor5.5.3   ['0.5141', '0.3681', '0.6064', '0.6851']  (must stay <= 1)
+
+## scheduler.py
+instances: 3996; failures: 0; worst (pricing - 4n)/C over random instances: 3.00 (paper: 3.0-3.5 on random, 6 tight)
+Remark 5.21 p=q=8: C=64 (paper p*q per copy... union C=64), all C_v=(64, 64, 64), pricing advances/C = 6.250 (paper 7.97 at 8 incl. overhead; limit 6)
+Remark 5.21 p=q=32: C=1024 (paper p*q per copy... union C=1024), all C_v=(1024, 1024, 1024), pricing advances/C = 6.062 (paper 7.97 at 8 incl. overhead; limit 6)
+stray m=4: C=0, v*=z, pricing units (1/advance + 3/binding) = 26 (paper 26, 38, 62, 110 = 3m+14 -> 26)
+stray m=8: C=0, v*=z, pricing units (1/advance + 3/binding) = 38 (paper 26, 38, 62, 110 = 3m+14 -> 38)
+stray m=16: C=0, v*=z, pricing units (1/advance + 3/binding) = 62 (paper 26, 38, 62, 110 = 3m+14 -> 62)
+stray m=32: C=0, v*=z, pricing units (1/advance + 3/binding) = 110 (paper 26, 38, 62, 110 = 3m+14 -> 110)

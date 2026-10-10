@@ -1,0 +1,9 @@
+{"exhaustive_2x2": 65536, "positive": 32377, "statistics_groups": 1296, "violations": 0, "undecided": 0}
+{"F2_exhaustive_triples": 4096, "violations": 0}
+{"random_adversarial": 1800, "positive": 1543, "tight": 81, "F2_H3_additional_checked": 213, "violations": 0, "undecided": 0}
+{"arc_plus_flips": 320, "positive": 244, "tight": 61, "violations": 0, "undecided": 0}
+{"misnamed_tight_example": {"dimensions": [2, 1, 7, 2], "r": [2, 7, 14, 4], "s": ["2", "7", "14", "4"], "Out": 28, "U12": "232218265089212416", "r_Q_s_R_s_T": "112", "r_R_r_T": 28, "r_S_r_Q": 28}}
+{"double_star_n": 2, "degree_product": 4, "sigma2_lower": "7778742049/2971215073", "sigma2_upper": "121393/46368"}
+{"double_star_n": 3, "degree_product": 9, "sigma2_lower": "187649984473771/46912496118443", "sigma2_upper": "22369621/5592405"}
+{"double_star_n": 5, "degree_product": 25, "sigma2_lower": "25202170389134351341/3840885093721692949", "sigma2_upper": "10135859761/1544728185"}
+{"double_star_n": 8, "degree_product": 64, "sigma2_lower": "937054113208950173149441/91934907827852082528823", "sigma2_upper": "2379420388801/233431323840"}

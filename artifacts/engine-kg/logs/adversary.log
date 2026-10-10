@@ -1,0 +1,25 @@
+stride 64 |J|=1 N=12290 M=[258048, 4032, 4032] Ahat=[0, 258111, 4032] pick=0 gate_accepts=True M_pick/minM=64 obj_ratio=21.777 OK
+stride 65 |J|=64 N=12677 M=[4225, 65, 65] Ahat=[0, 4292, 66] pick=0 gate_accepts=True M_pick/minM=65 obj_ratio=1.488 OK
+stride 96 |J|=2 N=27650 M=[866304, 9024, 9024] Ahat=[0, 442416, 13537] pick=0 gate_accepts=True M_pick/minM=96 obj_ratio=32.221 OK
+stride 128 |J|=1 N=49154 M=[2080768, 16256, 16256] Ahat=[0, 2097280, 32513] pick=0 gate_accepts=True M_pick/minM=128 obj_ratio=43.111 OK
+stride 200 |J|=8 N=120002 M=[7680000, 38400, 38400] Ahat=[0, 1000025, 120003] pick=0 gate_accepts=True M_pick/minM=200 obj_ratio=65.539 OK
+stride 256 |J|=1 N=196610 M=[16711680, 65280, 65280] Ahat=[0, 16777472, 261123] pick=0 gate_accepts=True M_pick/minM=256 obj_ratio=85.777 OK
+golden 64 |J|=52 N=12290 M=[49152, 768, 768] Ahat=[0, 4097, 1536] pick=0 gate_accepts=True M_pick/minM=64 obj_ratio=6.399 OK
+golden 65 |J|=43 N=12677 M=[92950, 1430, 1430] Ahat=[0, 4292, 2905] pick=0 gate_accepts=True M_pick/minM=65 obj_ratio=10.261 OK
+golden 96 |J|=40 N=27650 M=[516096, 5376, 5376] Ahat=[0, 13825, 8064] pick=0 gate_accepts=True M_pick/minM=96 obj_ratio=22.450 OK
+golden 128 |J|=64 N=49154 M=[1048576, 8192, 8192] Ahat=[0, 32770, 16385] pick=0 gate_accepts=True M_pick/minM=128 obj_ratio=26.399 OK
+golden 200 |J|=64 N=120002 M=[5440000, 27200, 27200] Ahat=[0, 125003, 85002] pick=0 gate_accepts=True M_pick/minM=200 obj_ratio=51.492 OK
+golden 256 |J|=62 N=196610 M=[12713984, 49664, 49664] Ahat=[0, 524296, 198659] pick=0 gate_accepts=True M_pick/minM=256 obj_ratio=71.070 OK
+rand7 64 |J|=44 N=12290 M=[81920, 1280, 1280] Ahat=[0, 4097, 1280] pick=0 gate_accepts=True M_pick/minM=64 obj_ratio=9.512 OK
+rand7 65 |J|=39 N=12677 M=[109850, 1690, 1690] Ahat=[0, 4292, 0] pick=0 gate_accepts=True M_pick/minM=65 obj_ratio=11.664 OK
+rand7 96 |J|=49 N=27650 M=[433152, 4512, 4512] Ahat=[0, 0, 6768] pick=0 gate_accepts=True M_pick/minM=96 obj_ratio=19.680 OK
+rand7 128 |J|=46 N=49154 M=[1343488, 10496, 10496] Ahat=[0, 0, 41986] pick=0 gate_accepts=True M_pick/minM=128 obj_ratio=31.809 OK
+rand7 200 |J|=55 N=120002 M=[5800000, 29000, 29000] Ahat=[0, 0, 0] pick=0 gate_accepts=True M_pick/minM=200 obj_ratio=53.944 OK
+rand7 256 |J|=53 N=196610 M=[13303808, 51968, 51968] Ahat=[0, 0, 0] pick=0 gate_accepts=True M_pick/minM=256 obj_ratio=73.398 OK
+rand11 64 |J|=39 N=12290 M=[102400, 1600, 1600] Ahat=[0, 0, 0] pick=0 gate_accepts=True M_pick/minM=64 obj_ratio=11.292 OK
+rand11 65 |J|=40 N=12677 M=[105625, 1625, 1625] Ahat=[0, 0, 0] pick=0 gate_accepts=True M_pick/minM=65 obj_ratio=11.320 OK
+rand11 96 |J|=48 N=27650 M=[442368, 4608, 4608] Ahat=[0, 13825, 0] pick=0 gate_accepts=True M_pick/minM=96 obj_ratio=19.998 OK
+rand11 128 |J|=54 N=49154 M=[1212416, 9472, 9472] Ahat=[0, 0, 56835] pick=0 gate_accepts=True M_pick/minM=128 obj_ratio=29.477 OK
+rand11 200 |J|=54 N=120002 M=[5840000, 29200, 29200] Ahat=[0, 0, 91252] pick=0 gate_accepts=True M_pick/minM=200 obj_ratio=54.211 OK
+rand11 256 |J|=56 N=196610 M=[13107200, 51200, 51200] Ahat=[0, 0, 0] pick=0 gate_accepts=True M_pick/minM=256 obj_ratio=72.628 OK
+ALL OK

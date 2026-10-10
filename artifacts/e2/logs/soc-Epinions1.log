@@ -1,0 +1,7 @@
+[soc-Epinions1] n=75879 preds selected=1
+  dir soc-Epinions1 r=508837 sigma=139.616 [139.61578,139.61589] svds=139.61578 schur=2337.96 cw5=149.138 it=15 0.1s
+  sym soc-Epinions1 r=811480 sigma=184.175 [184.17513,184.17519] svds=184.17513 schur=3044 cw5=187.721 it=15 0.1s
+[soc-Epinions1/dir] canonical queries: 2
+[soc-Epinions1/dir] rows-so-far=2 zero=0 support-skip=0 M-skip=0 2s
+[soc-Epinions1/sym] canonical queries: 2
+[soc-Epinions1/sym] rows-so-far=3 zero=0 support-skip=0 M-skip=0 3s

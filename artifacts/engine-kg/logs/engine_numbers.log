@@ -1,0 +1,78 @@
+## codex-l (old P), 871 queries
+exact/sampled e2e median / p10: 26.2 / 7.93
+kernel-only gain (forced[s pick]/forced[e pick]) median / p90 / min / max: 1 / 1.56 / 0.0928 / 7.19
+exact pick != sampled pick: 405 (46.5%)
+exact pick is argmin 2n+M: 486/871; is argmin M: 871/871
+fastest forced = argmin M / argmin 2n+M: 515 / 532
+fastest forced = sampled / exact pick: 517 / 501
+stage-1 declines sampled / exact: 571 / 617
+final declines (gate) sampled / exact: 571 / 617
+stage-1 declined (571 w/ greedy timing): greedy/forced[sampled pick] median / p90: 1.4 / 3.38; >1.5x: 262
+   oracle greedy/best forced median / p90: 1.83 / 3.92; >1.5x: 350
+
+## codex-l (new R1), 871 queries
+exact/sampled e2e median / p10: 36.5 / 10.7
+kernel-only gain (forced[s pick]/forced[e pick]) median / p90 / min / max: 1 / 1 / 0.352 / 6.5
+exact pick != sampled pick: 55 (6.3%)
+exact pick is argmin 2n+M: 818/871; is argmin M: 499/871
+fastest forced = argmin M / argmin 2n+M: 518 / 586
+fastest forced = sampled / exact pick: 599 / 618
+stage-1 declines sampled / exact: 571 / 561
+final declines (gate) sampled / exact: 354 / 306
+stage-1 declined (571 w/ greedy timing): greedy/forced[sampled pick] median / p90: 1.68 / 6.18; >1.5x: 312
+   oracle greedy/best forced median / p90: 2.3 / 6.21; >1.5x: 365
+still declined after rescue (354): greedy/forced[sampled pick] median / p90: 1.08 / 2.9; >1.5x 106;  oracle median / p90 1.36 / 3.43; >1.5x 152
+rescued (217): t_sampled / best forced median / p90 / max: 1.02 / 1.32 / 2.99
+
+## sci50 (old P), 120 queries
+exact/sampled e2e median / p10: 39.1 / 7.26
+kernel-only gain (forced[s pick]/forced[e pick]) median / p90 / min / max: 1 / 1.27 / 0.293 / 14.2
+exact pick != sampled pick: 53 (44.2%)
+exact pick is argmin 2n+M: 68/120; is argmin M: 120/120
+fastest forced = argmin M / argmin 2n+M: 71 / 71
+fastest forced = sampled / exact pick: 66 / 62
+stage-1 declines sampled / exact: 87 / 102
+final declines (gate) sampled / exact: 87 / 102
+stage-1 declined (87 w/ greedy timing): greedy/forced[sampled pick] median / p90: 2.2 / 9.78; >1.5x: 64
+   oracle greedy/best forced median / p90: 2.8 / 14.9; >1.5x: 70
+
+## sci50 (new R1), 120 queries
+exact/sampled e2e median / p10: 62.8 / 22.7
+kernel-only gain (forced[s pick]/forced[e pick]) median / p90 / min / max: 1 / 1 / 0.295 / 5.55
+exact pick != sampled pick: 6 (5.0%)
+exact pick is argmin 2n+M: 116/120; is argmin M: 71/120
+fastest forced = argmin M / argmin 2n+M: 68 / 84
+fastest forced = sampled / exact pick: 86 / 83
+stage-1 declines sampled / exact: 87 / 88
+final declines (gate) sampled / exact: 35 / 29
+stage-1 declined (87 w/ greedy timing): greedy/forced[sampled pick] median / p90: 2.55 / 13.7; >1.5x: 66
+   oracle greedy/best forced median / p90: 2.88 / 15.9; >1.5x: 69
+still declined after rescue (35): greedy/forced[sampled pick] median / p90: 1.62 / 11.1; >1.5x 19;  oracle median / p90 1.62 / 14.9; >1.5x 19
+rescued (52): t_sampled / best forced median / p90 / max: 1.03 / 1.62 / 5.54
+
+## w5m (old P), 250 queries
+exact/sampled e2e median / p10: 69.8 / 8.74
+kernel-only gain (forced[s pick]/forced[e pick]) median / p90 / min / max: 1 / 2.15 / 0.024 / 15.2
+exact pick != sampled pick: 126 (50.4%)
+exact pick is argmin 2n+M: 125/250; is argmin M: 250/250
+fastest forced = argmin M / argmin 2n+M: 140 / 151
+fastest forced = sampled / exact pick: 147 / 139
+stage-1 declines sampled / exact: 166 / 191
+final declines (gate) sampled / exact: 166 / 191
+stage-1 declined (166 w/ greedy timing): greedy/forced[sampled pick] median / p90: 2.06 / 15.9; >1.5x: 105
+   oracle greedy/best forced median / p90: 3.53 / 20.2; >1.5x: 116
+
+## w5m (new R1), 250 queries
+exact/sampled e2e median / p10: 90.1 / 12.7
+kernel-only gain (forced[s pick]/forced[e pick]) median / p90 / min / max: 1 / 1 / 0.499 / 5.49
+exact pick != sampled pick: 8 (3.2%)
+exact pick is argmin 2n+M: 243/250; is argmin M: 126/250
+fastest forced = argmin M / argmin 2n+M: 140 / 168
+fastest forced = sampled / exact pick: 169 / 171
+stage-1 declines sampled / exact: 166 / 163
+final declines (gate) sampled / exact: 123 / 102
+stage-1 declined (166 w/ greedy timing): greedy/forced[sampled pick] median / p90: 2.36 / 20.8; >1.5x: 109
+   oracle greedy/best forced median / p90: 4.04 / 22.7; >1.5x: 116
+still declined after rescue (123): greedy/forced[sampled pick] median / p90: 1.55 / 17.8; >1.5x 67;  oracle median / p90 1.91 / 21; >1.5x 74
+rescued (43): t_sampled / best forced median / p90 / max: 1.15 / 2.24 / 3.91
+

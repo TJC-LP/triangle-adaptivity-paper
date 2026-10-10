@@ -1,0 +1,11 @@
+H3_DIRECT_CERTIFICATES 236 equalities 3 undecided []
+D4_ORBITS 10 sizes [2, 2, 2, 4, 4, 4, 4, 4, 4, 8]
+RAW_ROUNDING_16_LIMIT t 3/2 r (Fraction(3, 2), Fraction(27, 8), Fraction(81, 16), Fraction(27, 8)) s (Fraction(1, 1), Fraction(9, 4), Fraction(9, 4), Fraction(9, 4)) U 81/16 Out 1
+RAW_ROUNDING_16_LIMIT t 7/4 r (Fraction(7, 4), Fraction(343, 64), Fraction(2401, 256), Fraction(343, 64)) s (Fraction(1, 1), Fraction(49, 16), Fraction(49, 16), Fraction(49, 16)) U 2401/256 Out 1
+RAW_ROUNDING_16_LIMIT t 15/8 r (Fraction(15, 8), Fraction(3375, 512), Fraction(50625, 4096), Fraction(3375, 512)) s (Fraction(1, 1), Fraction(225, 64), Fraction(225, 64), Fraction(225, 64)) U 50625/4096 Out 1
+RAW_ROUNDING_16_LIMIT t 31/16 r (Fraction(31, 16), Fraction(29791, 4096), Fraction(923521, 65536), Fraction(29791, 4096)) s (Fraction(1, 1), Fraction(961, 256), Fraction(961, 256), Fraction(961, 256)) U 923521/65536 Out 1
+RAW_ROUNDING_16_LIMIT t 63/32 r (Fraction(63, 32), Fraction(250047, 32768), Fraction(15752961, 1048576), Fraction(250047, 32768)) s (Fraction(1, 1), Fraction(3969, 1024), Fraction(3969, 1024), Fraction(3969, 1024)) U 15752961/1048576 Out 1
+RAW_ROUNDING_16_LIMIT t 1023/512 r (Fraction(1023, 512), Fraction(1070599167, 134217728), Fraction(1095222947841, 68719476736), Fraction(1070599167, 134217728)) s (Fraction(1, 1), Fraction(1046529, 262144), Fraction(1046529, 262144), Fraction(1046529, 262144)) U 1095222947841/68719476736 Out 1
+SMALL_L_COUNTEREXAMPLE t 3/2 L 3 L_ge_t2 True U12 282429536481/262144 t36 150094635296999121/68719476736
+REAL_MATRIX_H_COUNTEREXAMPLE Out 1/2 H 1/4
+CONSTANT8_EXACT_L_THRESHOLD_POWER 3

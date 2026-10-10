@@ -1,0 +1,25 @@
+VFTIME,vf_tri_rows,910779500,466168
+VFTIME,vf_tri_cyc_rows,909358834,466827
+VFTIME,vf_tri_count,984003125,1
+VFTIME,vf_tri_cyc_count,979649750,1
+VFTIME,vf_tri_sel,1295375,3514
+VFTIME,vf_cycle_quad,18750,0
+VFTIME,vf_nt_chain,25995958,613530
+VFTIME,vf_nt_star,89750,1
+File: skew.lb
+Size: 160 bytes (0.16 KB)
+Triples: 101411
+Load: 0.44 ms
+
+Query suite (best of 1 runs):
+  vf_tri_rows           910.780 ms   466168 rows        1.1 q/s
+  vf_tri_cyc_rows       909.359 ms   466827 rows        1.1 q/s
+  vf_tri_count          984.003 ms        1 rows        1.0 q/s
+  vf_tri_cyc_count      979.650 ms        1 rows        1.0 q/s
+  vf_tri_sel              1.295 ms     3514 rows      772.0 q/s
+  vf_cycle_quad           0.019 ms        0 rows    53333.3 q/s
+  vf_nt_chain            25.996 ms   613530 rows       38.5 q/s
+  vf_nt_star              0.090 ms        1 rows    11142.1 q/s
+real 3.99
+user 3.70
+sys 0.12

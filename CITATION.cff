@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "Levels of adaptivity and spectral worst-case bounds for labeled triangle joins"
+type: article
+authors:
+  - family-names: "Caputo"
+    given-names: "A. Richard"
+    name-suffix: "III"
+    affiliation: "TJC L.P."
+    email: "rcaputo3@tjclp.com"
+date-released: 2026-10-09
+repository-code: "https://github.com/TJC-LP/triangle-adaptivity-paper"
+keywords:
+  - worst-case optimal joins
+  - triangle queries
+  - adaptivity
+  - operator norm
+  - Lean 4
+preferred-citation:
+  type: article
+  title: "Levels of adaptivity and spectral worst-case bounds for labeled triangle joins"
+  authors:
+    - family-names: "Caputo"
+      given-names: "A. Richard"
+      name-suffix: "III"
+      affiliation: "TJC L.P."
+  year: 2026

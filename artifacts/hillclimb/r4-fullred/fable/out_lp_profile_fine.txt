@@ -1,0 +1,9 @@
+exact-N case F kappa=51/50 (1.0200): gap = 1/25 (0.04000); 2(kappa-1) = 0.04000; (3-2kappa)/8 = 0.12000
+exact-N case F kappa=103/100 (1.0300): gap = 3/50 (0.06000); 2(kappa-1) = 0.06000; (3-2kappa)/8 = 0.11750
+exact-N case F kappa=26/25 (1.0400): gap = 2/25 (0.08000); 2(kappa-1) = 0.08000; (3-2kappa)/8 = 0.11500
+exact-N case F kappa=21/20 (1.0500): gap = 59/660 (0.08939); 2(kappa-1) = 0.10000; (3-2kappa)/8 = 0.11250
+exact-N case F kappa=53/50 (1.0600): gap = 7/75 (0.09333); 2(kappa-1) = 0.12000; (3-2kappa)/8 = 0.11000
+exact-N case F kappa=107/100 (1.0700): gap = 19/200 (0.09500); 2(kappa-1) = 0.14000; (3-2kappa)/8 = 0.10750
+exact-N case F kappa=27/25 (1.0800): gap = 29/300 (0.09667); 2(kappa-1) = 0.16000; (3-2kappa)/8 = 0.10500
+exact-N case F kappa=109/100 (1.0900): gap = 59/600 (0.09833); 2(kappa-1) = 0.18000; (3-2kappa)/8 = 0.10250
+exact-N case F kappa=219/200 (1.0950): gap = 119/1200 (0.09917); 2(kappa-1) = 0.19000; (3-2kappa)/8 = 0.10125

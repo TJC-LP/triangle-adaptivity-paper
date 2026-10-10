@@ -1,0 +1,14 @@
+Build Summary: 12/12 steps succeeded; 6954/7021 tests passed (67 skipped)
+test-unit success
++- run test unit 6945 pass, 67 skip (7012 total) 5m MaxRSS:855M
+|  +- compile test unit Debug native cached 71ms MaxRSS:36M
+|     +- options cached
+|     +- options cached
+|     +- WriteFile vocab.ttl cached
+|        +- run exe gen-vocab (vocab.ttl) cached
+|           +- compile exe gen-vocab Debug native cached 76ms MaxRSS:35M
++- run test build-identity 7 pass (7 total) 35ms MaxRSS:2M
+|  +- compile test build-identity Debug native cached 75ms MaxRSS:35M
++- run test install-cli 2 pass (2 total) 35ms MaxRSS:2M
+   +- compile test install-cli Debug native cached 76ms MaxRSS:35M
+

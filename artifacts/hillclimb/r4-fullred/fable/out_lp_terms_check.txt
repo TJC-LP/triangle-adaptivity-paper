@@ -1,0 +1,1 @@
+LP term lists consistent with closed forms on 3620 parameter tuples (each statistic within [max, 12*max] of its monomials)

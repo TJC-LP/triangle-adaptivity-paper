@@ -1,0 +1,19 @@
+seed 12: random phase (3000 instances) worst ratios: {'Lam': 1.0, 'F2': 1.0, 'H3': 1.0, 'Gcls': 0.25, 'Gsum': 1.0}
+after annealing worst ratios:
+  Lam   1.000000000
+  F2    1.000000000
+  H3    1.000000000
+  Gcls  0.250000000
+  Gsum  1.000000000
+annealed Out/monomial for the F, G, H monomials (float), exact re-check of the best instance:
+  F r_S^1/3 r_Q^2/3 s_R^1/3 s_S^1/3 s_T^1/3      float ratio 1.000000000  exact status ok  (Out=3, r=[1, 1, 3, 3])
+  G r_S^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_Q^1/3 float ratio 0.968478901  exact status ok  (Out=26, r=[2, 3, 14, 9])
+  H r_S^1/2 r_Q^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4 float ratio 1.000000000  exact status ok  (Out=6, r=[3, 2, 3, 3])
+  F r_S^2/3 r_Q^1/3 s_R^1/3 s_T^1/3 s_Q^1/3      float ratio 0.945096766  exact status ok  (Out=32, r=[9, 4, 8, 9])
+  G r_R^1/3 r_T^1/3 r_Q^1/3 s_R^1/3 s_S^1/3 s_T^1/3 float ratio 0.968729306  exact status ok  (Out=30, r=[2, 3, 15, 11])
+  F r_R^1/3 r_T^2/3 s_R^1/3 s_S^1/3 s_Q^1/3      float ratio 0.972722841  exact status ok  (Out=42, r=[3, 3, 14, 16])
+  G r_R^1/3 r_S^1/3 r_Q^1/3 s_S^1/3 s_T^1/3 s_Q^1/3 float ratio 1.000000000  exact status ok  (Out=6, r=[6, 1, 2, 6])
+  G r_R^1/3 r_S^1/3 r_T^1/3 s_R^1/3 s_T^1/3 s_Q^1/3 float ratio 0.986757008  exact status ok  (Out=52, r=[4, 12, 13, 6])
+  H r_R^1/2 r_T^1/2 s_R^1/4 s_S^1/4 s_T^1/4 s_Q^1/4 float ratio 0.985764446  exact status ok  (Out=19, r=[19, 6, 1, 6])
+  F r_R^2/3 r_T^1/3 s_S^1/3 s_T^1/3 s_Q^1/3      float ratio 0.926760940  exact status ok  (Out=33, r=[6, 10, 6, 7])
+exit 0

@@ -1,0 +1,13 @@
+seed 1: 2995 random instances (uniform/skew/blocks, sides <= 7) and 2339 fully reduced reductions: U1 (thm-pb-upper), U2 (Out <= B2), U3, U4, per-root forms all hold
+  worst (C-N)_+^8 / (|R||S||T| min(...)^2) = 0.03576; worst Out^3 / min(abc, a'b'c') = 1
+  best fully reduced C/(N+B2) among reductions: 0.7692: N=119 (|R|,|S|,|T|)=(35,49,35) C=280 (Cx,Cy,Cz)=(280,280,280) Out=245 fully_reduced=True dead=(0,0,0) fwd=(245,343,175) bwd=(175,343,245) B2=245 C/(N+B2)=0.769231
+structured small instances:
+  K_(1,1,1): C=2 N=3 Out=1 B2 in [1,1] C/(N+B2) ~ 0.5000 fully_reduced=True
+  K_(2,2,2): C=12 N=12 Out=8 B2 in [8,8] C/(N+B2) ~ 0.6000 fully_reduced=True
+  K_(3,3,3): C=36 N=27 Out=27 B2 in [27,27] C/(N+B2) ~ 0.6667 fully_reduced=True
+  K_(4,4,4): C=80 N=48 Out=64 B2 in [64,64] C/(N+B2) ~ 0.7143 fully_reduced=True
+  K_(2,5,1): C=12 N=17 Out=10 B2 in [10,10] C/(N+B2) ~ 0.4444 fully_reduced=True
+  K_(1,6,6): C=42 N=48 Out=36 B2 in [36,36] C/(N+B2) ~ 0.5000 fully_reduced=True
+  K_(6,1,6): C=42 N=48 Out=36 B2 in [36,36] C/(N+B2) ~ 0.5000 fully_reduced=True
+hill climb (fully reduced, sides <= 5): best C/(N+B2) = 0.6923: N=55 (|R|,|S|,|T|)=(25,15,15) C=90 (Cx,Cy,Cz)=(90,90,90) Out=75 fully_reduced=True dead=(0,0,0) fwd=(125,45,75) bwd=(125,75,45) B2=75 C/(N+B2)=0.692308
+exit 0

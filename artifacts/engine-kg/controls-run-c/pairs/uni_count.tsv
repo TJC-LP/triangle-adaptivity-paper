@@ -1,0 +1,1 @@
+vf_tri_count	PREFIX ex: <http://example.org/> PREFIX foaf: <http://xmlns.com/foaf/0.1/> PREFIX dbo: <http://dbpedia.org/ontology/> SELECT (COUNT(*) AS ?n) WHERE { ?a foaf:knows ?b . ?b ex:related ?c . ?a dbo:location ?c }
