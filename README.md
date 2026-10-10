@@ -178,3 +178,12 @@ result.
 ## Citation
 
 See [`CITATION.cff`](CITATION.cff).
+
+## License
+
+The MIT license in `LICENSE` covers the code and data in this repository (scripts,
+the Lean sources under lean/, tools/, weaver-checks/ and artifacts/) except the
+paper. The paper text and figures under paper/ are licensed separately under
+CC BY 4.0; see paper/LICENSE. Third-party datasets referenced by the artifacts
+(SNAP graphs, CoDEx, Wikidata5M) keep their own licenses, and the Lean package
+depends on mathlib (Apache-2.0).
