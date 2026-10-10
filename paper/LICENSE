@@ -1,0 +1,10 @@
+The paper "Levels of adaptivity and spectral worst-case bounds for labeled
+triangle joins" (the Typst source, the compiled PDF and the figures in this
+directory) is copyright (c) 2026 TJC L.P. and is licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).
+
+To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/
+
+The figure-generating scripts in this directory are code and are covered by
+the repository's MIT license (../LICENSE).

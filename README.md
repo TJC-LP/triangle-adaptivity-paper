@@ -67,7 +67,7 @@ which are measured.
 | `weaver-checks/` | Weaver's outside checks: five Python scripts written from the paper's definitions alone, and their recorded output (see its README) |
 | `tools/scrub_check.py` | Fails if any file contains machine-local paths, internal ticket identifiers, tracker or session links, or e-mail addresses other than the author's; `--deny FILE` adds literal strings kept outside the repository |
 | `CITATION.cff` | Citation metadata |
-| `LICENSE.TODO` | The license is still to be chosen by the author; no license is granted yet |
+| `LICENSE` | MIT (code and data, copyright TJC L.P.); the paper text and figures are CC BY 4.0, see `paper/LICENSE` |
 
 ## Reproducing each artifact
 
